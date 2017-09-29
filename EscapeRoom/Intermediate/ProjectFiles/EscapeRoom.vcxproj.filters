@@ -43,12 +43,18 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\EscapeRoom\PositionReporter.h">
+    <ClInclude Include="..\..\Source\EscapeRoom\PositionReport.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EscapeRoom\OpenDoor.h">
       <Filter>Source\EscapeRoom</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\EscapeRoom\PositionReporter.cpp">
+    <ClCompile Include="..\..\Source\EscapeRoom\PositionReport.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EscapeRoom\OpenDoor.cpp">
       <Filter>Source\EscapeRoom</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,0 +1,12 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for EscapeRoomEditor
+    Running UnrealHeaderTool "D:\GitHub\EscapeRoom\EscapeRoom\EscapeRoom.uproject" "D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for EscapeRoomEditor in 8.726752 seconds
+  Performing 3 actions (4 in parallel)
+  OpenDoor.cpp
+  [2/3] Link UE4Editor-EscapeRoom-8295.dll
+  [3/3] Link UE4Editor-EscapeRoom-8295.lib
+     Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8295.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8295.exp
+     Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8295.suppressed.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8295.suppressed.exp
+  Deploying EscapeRoomEditor Win64 Development...
+  Total build time: 17.14 seconds (Local executor: 2.24 seconds)

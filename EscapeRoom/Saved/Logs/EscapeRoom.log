@@ -1,13 +1,13 @@
-﻿Log file open, 09/27/17 22:56:29
+﻿Log file open, 09/28/17 15:34:31
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: EscapeRoom
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-595096466) SRandInit(-595096466).
+LogInit: Display: RandInit(661020422) SRandInit(661020422).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.185909
+LogStats: Stats thread started at 0.176378
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,510 +109,1328 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.28-02.56.30:451][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.28-02.56.30:451][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.28-02.56.30:463][  0]LogInit: Computer: LAPTOP-QBTPNRJC
-[2017.09.28-02.56.30:463][  0]LogInit: User: dougl
-[2017.09.28-02.56.30:463][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.09.28-02.56.30:463][  0]LogInit: High frequency timer resolution =2.531250 MHz
-[2017.09.28-02.56.30:463][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2017.09.28-02.56.30:463][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.28-02.56.30:463][  0]LogMemory: Process Physical Memory: 278.90 MB used, 278.90 MB peak
-[2017.09.28-02.56.30:463][  0]LogMemory: Process Virtual Memory: 282.48 MB used, 282.48 MB peak
-[2017.09.28-02.56.30:463][  0]LogMemory: Physical Memory: 7284.30 MB used,  8927.48 MB free, 16211.78 MB total
-[2017.09.28-02.56.30:463][  0]LogMemory: Virtual Memory: 677.02 MB used,  8927.48 MB free, 134217728.00 MB total
-[2017.09.28-02.56.30:644][  0]LogInit: Using OS detected language (en-US).
-[2017.09.28-02.56.30:644][  0]LogInit: Using OS detected locale (en-US).
-[2017.09.28-02.56.30:648][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.28-02.56.31:393][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.28-02.56.31:422][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2017.09.28-02.56.31:422][  0]LogD3D11RHI:       4064/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.09.28-02.56.31:428][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.09.28-02.56.31:428][  0]LogD3D11RHI:       128/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.09.28-02.56.31:429][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.28-02.56.31:429][  0]LogD3D11RHI:       0/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.28-02.56.31:429][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.28-02.56.31:435][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.28-02.56.31:435][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2017.09.28-02.56.31:435][  0]LogWindows: EnumDisplayDevices:
-[2017.09.28-02.56.31:435][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2017.09.28-02.56.31:435][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
-[2017.09.28-02.56.31:436][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.09.28-02.56.31:436][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.09.28-02.56.31:436][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2017.09.28-02.56.31:436][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.09.28-02.56.31:436][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.09.28-02.56.31:436][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.28-02.56.31:453][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.28-02.56.31:464][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.09.28-02.56.31:465][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/GitHub/EscapeRoom/EscapeRoom/Intermediate/Shaders/WorkingDirectory/1948/).
-[2017.09.28-02.56.31:465][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dougl/AppData/Local/Temp/UnrealShaderWorkingDir/31D2F16D4DB608F43CF2DDB5DE3B08CA/'.
-[2017.09.28-02.56.31:465][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.28-02.56.32:431][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.28-02.56.32:489][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.28-02.56.32:541][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.28-02.56.32:592][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.28-02.56.32:648][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.28-02.56.32:700][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.28-02.56.32:753][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.28-02.56.32:806][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.28-02.56.32:851][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.28-02.56.32:901][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.28-02.56.32:952][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.28-02.56.33:003][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.28-02.56.33:054][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.28-02.56.33:108][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.28-02.56.33:160][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.28-02.56.33:264][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.28-02.56.33:264][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.28-02.56.33:304][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.28-02.56.33:404][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.28-02.56.33:434][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.28-02.56.33:484][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.28-02.56.33:534][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.28-02.56.33:584][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.28-02.56.33:636][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.28-02.56.33:636][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.28-02.56.34:156][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.28-02.56.34:254][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/dougl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.28-02.56.34:254][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dougl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.28-02.56.34:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/EscapeRoom/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.28-02.56.34:254][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.28-02.56.34:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/EscapeRoom/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.28-02.56.34:254][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.28-02.56.34:271][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.28-02.56.34:284][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dougl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.28-02.56.34:293][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.28-02.56.34:294][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.28-02.56.34:294][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.28-02.56.34:294][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.28-02.56.34:557][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
-[2017.09.28-02.56.34:672][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.28-02.56.34:840][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.28-02.56.35:157][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.28-02.56.35:202][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.28-02.56.35:202][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.28-02.56.35:202][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.28-02.56.35:202][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.28-02.56.35:202][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.28-02.56.35:597][  0]LogNetVersion: EscapeRoom , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4184261634)
-[2017.09.28-02.56.35:833][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.044154 seconds
-[2017.09.28-02.56.35:839][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.28-02.56.35:839][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.09.28-02.56.35:839][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.28-02.56.35:904][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.28-02.56.38:589][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.28-02.56.38:633][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.28-02.56.39:363][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.28-02.56.39:801][  0]SourceControl: Source control is disabled
-[2017.09.28-02.56.39:801][  0]SourceControl: Source control is disabled
-[2017.09.28-02.56.39:851][  0]SourceControl: Source control is disabled
-[2017.09.28-02.56.39:900][  0]SourceControl: Source control is disabled
-[2017.09.28-02.56.40:532][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.28-02.56.40:793][  0]LogOcInput: OculusInput pre-init called
-[2017.09.28-02.56.41:060][  0]LogEngine: Initializing Engine...
-[2017.09.28-02.56.41:061][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.28-02.56.41:298][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.28-02.56.41:298][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.28-02.56.41:435][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.28-02.56.41:445][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.28-02.56.41:485][  0]LogInit: FAudioDevice initialized.
-[2017.09.28-02.56.41:618][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/dougl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.28-02.56.41:634][  0]LogInit: Texture streaming: Enabled
-[2017.09.28-02.56.41:758][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.28-02.56.41:994][  0]LogInit: Transaction tracking system initialized
-[2017.09.28-02.56.42:329][  0]BlueprintLog: New page: Editor Load
-[2017.09.28-02.56.43:277][  0]LocalizationService: Localization service is disabled
-[2017.09.28-02.56.44:089][  0]LogConsoleResponse: Display: 
-[2017.09.28-02.56.44:300][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.28-02.56.44:300][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.28-02.56.44:300][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.28-02.56.44:306][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Content/' took 0.01s
-[2017.09.28-02.56.45:526][  0]SourceControl: Source control is disabled
-[2017.09.28-02.56.45:526][  0]Cmd: MAP LOAD FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.28-02.56.45:526][  0]LightingResults: New page: Lighting Build
-[2017.09.28-02.56.45:571][  0]MapCheck: New page: Map Check
-[2017.09.28-02.56.45:571][  0]LightingResults: New page: Lighting Build
-[2017.09.28-02.56.45:709][  0]LogAIModule: Creating AISystem for world NewMap
-[2017.09.28-02.56.45:716][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.28-02.56.45:730][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.28-02.56.45:782][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.965ms to complete.
-[2017.09.28-02.56.45:782][  0]LogFileHelpers: Loading map 'NewMap' took 0.256
-[2017.09.28-02.56.45:861][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.28-02.56.45:861][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.28-02.56.45:958][  0]LogCollectionManager: Loaded 0 collections in 0.001637 seconds
-[2017.09.28-02.56.46:047][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Collections/' took 0.01s
-[2017.09.28-02.56.46:047][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Developers/dougl/Collections/' took 0.01s
-[2017.09.28-02.56.46:048][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Collections/' took 0.01s
-[2017.09.28-02.56.46:048][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.09.28-02.56.46:058][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2387 classes and 502 folders.
-[2017.09.28-02.56.46:132][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2017.09.28-02.56.46:175][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2017.09.28-02.56.46:223][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.09.28-02.56.46:248][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.28-02.56.46:251][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.28-02.56.46:258][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.28-02.56.46:375][  0]LogRenderer: Reallocating scene render targets to support 756x436 Format 10 NumSamples 1 (Frame:1).
-[2017.09.28-02.56.46:432][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.28-02.56.46:589][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2017.09.28-02.56.46:589][  0]LogLoad: (Engine Initialization) Total time: 18.49 seconds
-[2017.09.28-02.56.46:589][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.28-02.56.46:589][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.09.28-02.56.46:630][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.28-02.56.46:701][  1]LogAssetRegistry: Asset discovery search completed in 12.1661 seconds
-[2017.09.28-02.56.46:702][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.09.28-02.56.46:702][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
-[2017.09.28-02.58.36:319][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.09.28-02.59.48:092][665]LogActorFactory: Actor Factory created SM_Chair
-[2017.09.28-02.59.51:184][850]LogActorFactory: Actor Factory created SM_Chair
-[2017.09.28-02.59.52:309][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.09.28-02.59.53:235][965]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.09.28-02.59.55:749][112]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.28-02.59.55:766][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.09.28-02.59.55:813][112]LogSavePackage: Save=26.16ms
-[2017.09.28-02.59.55:813][112]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap7631528F43F7BEF8E071B3B3C0CDEC23.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
-[2017.09.28-02.59.55:816][112]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
-[2017.09.28-02.59.55:841][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
-[2017.09.28-02.59.55:862][112]LogSavePackage: Save=14.86ms
-[2017.09.28-02.59.55:863][112]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltDataBDA7E1B249F1CDAF9C6977B5EEBEFBBB.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
-[2017.09.28-02.59.55:863][112]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
-[2017.09.28-03.07.47:361][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2017.09.28-03.08.07:009][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2017.09.28-03.08.47:866][951]LogSlate: Took 0.007944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.28-03.09.18:021][951]Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom Win64 Development -editorrecompile "D:/GitHub/EscapeRoom/EscapeRoom/EscapeRoom.uproject" -invalidatemakefilesonly
-[2017.09.28-03.09.18:425][951]Invalidating makefiles only in this run.
-[2017.09.28-03.09.18:528][951]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.28-03.09.18:562][951]Candidate modules for hot reload:
-[2017.09.28-03.09.18:562][951]  EscapeRoom
-[2017.09.28-03.09.18:562][951]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix EscapeRoom 8817 Win64 Development -editorrecompile -canskiplink "D:/GitHub/EscapeRoom/EscapeRoom/EscapeRoom.uproject" ]
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: New page: Compilation - Sep 27, 2017, 7:10:17 PM
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: Compiling game modules for hot reload
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: Parsing headers for EscapeRoomEditor
-[2017.09.28-03.10.17:409][951]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\EscapeRoom\EscapeRoom\EscapeRoom.uproject" "D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: Reflection code generated for EscapeRoomEditor in 9.7473501 seconds
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: EscapeRoom.init.gen.cpp
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: PositionReporter.gen.cpp
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: PositionReporter.cpp
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: [4/5] Link UE4Editor-EscapeRoom-8817.dll
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: [5/5] Link UE4Editor-EscapeRoom-8817.lib
-[2017.09.28-03.10.17:409][951]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8817.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8817.exp
-[2017.09.28-03.10.17:409][951]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8817.suppressed.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8817.suppressed.exp
-[2017.09.28-03.10.17:409][951]CompilerResultsLog: Total build time: 58.58 seconds (Local executor: 7.48 seconds)
-[2017.09.28-03.10.17:409][951]LogMainFrame: MainFrame: Module compiling took 58.862 seconds
-[2017.09.28-03.10.17:505][951]LogClass: Could not find existing class PositionReporter in package /Script/EscapeRoom for HotReload, assuming new class
-[2017.09.28-03.10.17:508][951]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 2 classes and 2 folders.
-[2017.09.28-03.10.17:510][951]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.09.28-03.10.17:584][951]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2390 classes and 506 folders.
-[2017.09.28-03.10.17:586][951]Display: HotReload took 59.0s.
-[2017.09.28-03.10.17:588][951]Warning: HotReload operation took 59.1s.
-[2017.09.28-03.10.18:117][951]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/PositionReporter.h'
-[2017.09.28-03.10.18:201][951]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/PositionReporter.cpp'
-[2017.09.28-03.10.18:453][951]LogHotReload: New module detected: UE4Editor-EscapeRoom-8817.dll
-[2017.09.28-03.10.18:532][952]LogHotReload: Starting Hot-Reload from IDE
-[2017.09.28-03.10.18:666][952]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0021 seconds. Added 2 classes and 2 folders.
-[2017.09.28-03.10.18:668][952]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.09.28-03.10.18:688][952]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2390 classes and 506 folders.
-[2017.09.28-03.10.18:698][952]Display: HotReload took  0.2s.
-[2017.09.28-03.11.33:049][267]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.28-03.11.42:081][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2017.09.28-03.11.42:117][294]LogSavePackage: Save=26.72ms
-[2017.09.28-03.11.42:117][294]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto1707389B54C1CC9C685F52ABE4A3AAFA0.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap'
-[2017.09.28-03.11.42:118][294]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap
-[2017.09.28-03.11.42:124][294]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.061
-[2017.09.28-03.11.42:124][294]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.061
-[2017.09.28-03.24.10:308][ 99]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeRoom
-[2017.09.28-03.24.10:308][ 99]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.09.28-03.24.10:308][ 99]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2017.09.28-03.24.10:308][ 99]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.09.28-03.24.10:308][ 99]LogTemp: BranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2017.09.28-03.24.10:308][ 99]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\dougl\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.09.28-03.35.12:757][607]Cmd: QUIT_EDITOR
-[2017.09.28-03.35.12:790][607]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.28-03.35.12:791][607]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.28-03.35.12:811][607]LogExit: Preparing to exit.
-[2017.09.28-03.35.13:673][607]LogExit: Editor shut down
-[2017.09.28-03.35.13:684][607]LogExit: Transaction tracking system shut down
-[2017.09.28-03.35.13:852][607]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.09.28-03.35.13:852][607]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Content/' was aborted.
-[2017.09.28-03.35.13:852][607]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.09.28-03.35.13:852][607]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.09.28-03.35.13:852][607]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.09.28-03.35.14:004][607]LogExit: Object subsystem successfully closed.
-[2017.09.28-03.35.14:043][607]LogD3D11RHI: Shutdown
-[2017.09.28-03.35.14:044][607]LogD3D11RHI: CleanupD3DDevice
-[2017.09.28-03.35.14:148][607]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.09.28-03.35.14:192][607]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (536)
-[2017.09.28-03.35.14:192][607]LogModuleManager: Shutting down and abandoning module EscapeRoom (534)
-[2017.09.28-03.35.14:192][607]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2017.09.28-03.35.14:192][607]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
-[2017.09.28-03.35.14:193][607]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
-[2017.09.28-03.35.14:193][607]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.09.28-03.35.14:198][607]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
-[2017.09.28-03.35.14:198][607]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
-[2017.09.28-03.35.14:198][607]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
-[2017.09.28-03.35.14:199][607]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Collections/' was aborted.
-[2017.09.28-03.35.14:199][607]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Developers/dougl/Collections/' was aborted.
-[2017.09.28-03.35.14:199][607]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Collections/' was aborted.
-[2017.09.28-03.35.14:199][607]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
-[2017.09.28-03.35.14:199][607]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
-[2017.09.28-03.35.14:199][607]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
-[2017.09.28-03.35.14:200][607]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module BspMode (504)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2017.09.28-03.35.14:201][607]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
-[2017.09.28-03.35.14:202][607]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module Media (479)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module SessionServices (466)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
-[2017.09.28-03.35.14:205][607]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
-[2017.09.28-03.35.14:207][607]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
-[2017.09.28-03.35.14:208][607]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
-[2017.09.28-03.35.14:209][607]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
-[2017.09.28-03.35.14:209][607]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
-[2017.09.28-03.35.14:209][607]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
-[2017.09.28-03.35.14:209][607]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
-[2017.09.28-03.35.14:209][607]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
-[2017.09.28-03.35.14:466][607]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
-[2017.09.28-03.35.14:467][607]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
-[2017.09.28-03.35.14:467][607]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
-[2017.09.28-03.35.14:467][607]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
-[2017.09.28-03.35.14:467][607]LogModuleManager: Shutting down and abandoning module MergeActors (436)
-[2017.09.28-03.35.14:468][607]LogModuleManager: Shutting down and abandoning module SizeMap (434)
-[2017.09.28-03.35.14:468][607]LogModuleManager: Shutting down and abandoning module TreeMap (432)
-[2017.09.28-03.35.14:469][607]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
-[2017.09.28-03.35.14:469][607]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
-[2017.09.28-03.35.14:469][607]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
-[2017.09.28-03.35.14:470][607]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
-[2017.09.28-03.35.14:470][607]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
-[2017.09.28-03.35.14:470][607]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
-[2017.09.28-03.35.14:470][607]LogModuleManager: Shutting down and abandoning module XmlParser (418)
-[2017.09.28-03.35.14:471][607]LogModuleManager: Shutting down and abandoning module Blutility (416)
-[2017.09.28-03.35.14:471][607]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
-[2017.09.28-03.35.14:471][607]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
-[2017.09.28-03.35.14:471][607]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
-[2017.09.28-03.35.14:471][607]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
-[2017.09.28-03.35.14:471][607]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
-[2017.09.28-03.35.14:471][607]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
-[2017.09.28-03.35.14:472][607]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
-[2017.09.28-03.35.14:472][607]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
-[2017.09.28-03.35.14:473][607]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
-[2017.09.28-03.35.14:526][607]LogModuleManager: Shutting down and abandoning module AutomationController (396)
-[2017.09.28-03.35.14:527][607]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
-[2017.09.28-03.35.14:529][607]LogModuleManager: Shutting down and abandoning module Layers (392)
-[2017.09.28-03.35.14:531][607]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
-[2017.09.28-03.35.14:532][607]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
-[2017.09.28-03.35.14:532][607]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
-[2017.09.28-03.35.14:532][607]LogModuleManager: Shutting down and abandoning module Persona (384)
-[2017.09.28-03.35.14:534][607]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
-[2017.09.28-03.35.14:534][607]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
-[2017.09.28-03.35.14:534][607]LogModuleManager: Shutting down and abandoning module Kismet (378)
-[2017.09.28-03.35.14:535][607]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
-[2017.09.28-03.35.14:536][607]LogModuleManager: Shutting down and abandoning module Toolbox (374)
-[2017.09.28-03.35.14:537][607]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
-[2017.09.28-03.35.14:537][607]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
-[2017.09.28-03.35.14:538][607]LogModuleManager: Shutting down and abandoning module OutputLog (368)
-[2017.09.28-03.35.14:538][607]LogModuleManager: Shutting down and abandoning module GammaUI (366)
-[2017.09.28-03.35.14:539][607]LogModuleManager: Shutting down and abandoning module Documentation (364)
-[2017.09.28-03.35.14:539][607]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
-[2017.09.28-03.35.14:539][607]LogModuleManager: Shutting down and abandoning module MovieScene (360)
-[2017.09.28-03.35.14:539][607]LogModuleManager: Shutting down and abandoning module Niagara (358)
-[2017.09.28-03.35.14:539][607]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
-[2017.09.28-03.35.14:541][607]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
-[2017.09.28-03.35.14:541][607]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
-[2017.09.28-03.35.14:541][607]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
-[2017.09.28-03.35.14:541][607]LogModuleManager: Shutting down and abandoning module PortalServices (348)
-[2017.09.28-03.35.14:541][607]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
-[2017.09.28-03.35.14:541][607]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
-[2017.09.28-03.35.14:541][607]LogModuleManager: Shutting down and abandoning module AIModule (342)
-[2017.09.28-03.35.14:542][607]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
-[2017.09.28-03.35.14:542][607]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
-[2017.09.28-03.35.14:542][607]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
-[2017.09.28-03.35.14:625][607]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module OculusInput (326)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module CableComponent (320)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
-[2017.09.28-03.35.14:632][607]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
-[2017.09.28-03.35.14:634][607]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
-[2017.09.28-03.35.14:635][607]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
-[2017.09.28-03.35.14:635][607]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
-[2017.09.28-03.35.14:635][607]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
-[2017.09.28-03.35.14:635][607]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
-[2017.09.28-03.35.14:635][607]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
-[2017.09.28-03.35.14:635][607]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
-[2017.09.28-03.35.14:637][607]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
-[2017.09.28-03.35.14:638][607]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
-[2017.09.28-03.35.14:638][607]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
-[2017.09.28-03.35.14:638][607]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
-[2017.09.28-03.35.14:638][607]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
-[2017.09.28-03.35.14:639][607]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
-[2017.09.28-03.35.14:640][607]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
-[2017.09.28-03.35.14:641][607]LogModuleManager: Shutting down and abandoning module SourceControl (283)
-[2017.09.28-03.35.14:642][607]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
-[2017.09.28-03.35.14:642][607]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
-[2017.09.28-03.35.14:642][607]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
-[2017.09.28-03.35.14:642][607]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
-[2017.09.28-03.35.14:642][607]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
-[2017.09.28-03.35.14:643][607]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
-[2017.09.28-03.35.14:644][607]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
-[2017.09.28-03.35.14:645][607]LogModuleManager: Shutting down and abandoning module MainFrame (268)
-[2017.09.28-03.35.14:645][607]LogModuleManager: Shutting down and abandoning module HotReload (267)
-[2017.09.28-03.35.14:645][607]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Binaries/Win64' was aborted.
-[2017.09.28-03.35.14:646][607]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.09.28-03.35.14:646][607]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.09.28-03.35.14:646][607]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.09.28-03.35.14:646][607]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.09.28-03.35.14:646][607]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.09.28-03.35.14:646][607]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.09.28-03.35.14:646][607]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.09.28-03.35.14:646][607]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.09.28-03.35.14:747][607]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.09.28-03.35.14:847][607]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.09.28-03.35.14:854][607]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.09.28-03.35.14:854][607]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.09.28-03.35.14:854][607]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.09.28-03.35.14:855][607]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.09.28-03.35.14:858][607]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.09.28-03.35.14:859][607]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.09.28-03.35.14:859][607]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.09.28-03.35.14:860][607]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.09.28-03.35.14:860][607]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.09.28-03.35.14:860][607]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.09.28-03.35.14:860][607]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.09.28-03.35.14:861][607]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.09.28-03.35.14:862][607]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.09.28-03.35.14:862][607]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.09.28-03.35.14:862][607]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.09.28-03.35.14:862][607]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.09.28-03.35.14:863][607]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.09.28-03.35.14:863][607]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.09.28-03.35.14:863][607]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.09.28-03.35.14:865][607]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.09.28-03.35.14:865][607]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.09.28-03.35.14:866][607]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.09.28-03.35.14:866][607]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.09.28-03.35.14:866][607]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.09.28-03.35.14:868][607]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.09.28-03.35.14:869][607]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.09.28-03.35.14:869][607]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.09.28-03.35.14:871][607]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.09.28-03.35.14:871][607]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.09.28-03.35.14:875][607]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.09.28-03.35.14:875][607]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.09.28-03.35.14:875][607]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.09.28-03.35.14:875][607]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.09.28-03.35.14:875][607]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.09.28-03.35.14:875][607]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.09.28-03.35.14:875][607]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.09.28-03.35.14:875][607]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.09.28-03.35.14:875][607]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.09.28-03.35.14:876][607]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.09.28-03.35.14:877][607]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.09.28-03.35.14:877][607]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.09.28-03.35.14:877][607]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.09.28-03.35.14:877][607]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.09.28-03.35.14:878][607]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.09.28-03.35.14:878][607]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.09.28-03.35.14:881][607]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.09.28-03.35.14:909][607]LogDerivedDataCache: Shutdown
-[2017.09.28-03.35.14:909][607]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.09.28-03.35.14:909][607]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.09.28-03.35.14:910][607]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.09.28-03.35.14:910][607]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.09.28-03.35.14:911][607]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.09.28-03.35.14:911][607]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.09.28-03.35.14:912][607]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.09.28-03.35.14:912][607]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.09.28-03.35.14:912][607]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.09.28-03.35.14:912][607]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.09.28-03.35.14:913][607]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.09.28-03.35.14:914][607]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.09.28-03.35.14:914][607]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.09.28-03.35.14:914][607]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.09.28-03.35.14:914][607]LogOnline: Display: Unloading online subsystem: NULL
-[2017.09.28-03.35.14:915][607]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.09.28-03.35.14:916][607]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.09.28-03.35.14:917][607]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.09.28-03.35.14:917][607]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1F156842-44FD-ACD2-86A3-CE8864188582%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=fe3eb03e4c6bd5b2053d609c84892995%7C673b42d9777c456f98e04f52d2f183ec%7C6d92607c-9b4e-4e4e-8049-db495ba2a9b2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.09.28-03.35.14:925][607]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.09.28-03.35.14:927][607]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.09.28-03.35.14:927][607]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.09.28-03.35.14:927][607]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.09.28-03.35.14:929][607]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.09.28-03.35.14:929][607]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.09.28-03.35.14:930][607]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.09.28-03.35.14:930][607]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.09.28-03.35.14:934][607]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.09.28-03.35.14:935][607]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.09.28-03.35.14:935][607]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.09.28-03.35.14:935][607]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.09.28-03.35.14:935][607]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.09.28-03.35.14:935][607]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.09.28-03.35.14:935][607]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.09.28-03.35.14:936][607]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.09.28-03.35.14:936][607]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.09.28-03.35.14:936][607]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.09.28-03.35.14:936][607]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.09.28-03.35.14:940][607]LogExit: Exiting.
-[2017.09.28-03.35.14:958][607]Log file closed, 09/27/17 23:35:14
+[2017.09.28-19.34.32:336][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.28-19.34.32:336][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.28-19.34.32:346][  0]LogInit: Computer: LAPTOP-QBTPNRJC
+[2017.09.28-19.34.32:346][  0]LogInit: User: dougl
+[2017.09.28-19.34.32:346][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.28-19.34.32:346][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.09.28-19.34.32:347][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2017.09.28-19.34.32:347][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.28-19.34.32:347][  0]LogMemory: Process Physical Memory: 278.12 MB used, 278.12 MB peak
+[2017.09.28-19.34.32:347][  0]LogMemory: Process Virtual Memory: 274.45 MB used, 274.45 MB peak
+[2017.09.28-19.34.32:347][  0]LogMemory: Physical Memory: 6605.71 MB used,  9606.07 MB free, 16211.78 MB total
+[2017.09.28-19.34.32:347][  0]LogMemory: Virtual Memory: 669.02 MB used,  9606.07 MB free, 134217728.00 MB total
+[2017.09.28-19.34.32:521][  0]LogInit: Using OS detected language (en-US).
+[2017.09.28-19.34.32:521][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.28-19.34.32:524][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.28-19.34.33:273][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.28-19.34.33:302][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.09.28-19.34.33:302][  0]LogD3D11RHI:       4064/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.28-19.34.33:308][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.09.28-19.34.33:308][  0]LogD3D11RHI:       128/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.28-19.34.33:309][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.28-19.34.33:309][  0]LogD3D11RHI:       0/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.28-19.34.33:309][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.28-19.34.33:314][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.28-19.34.33:314][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.09.28-19.34.33:314][  0]LogWindows: EnumDisplayDevices:
+[2017.09.28-19.34.33:315][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.09.28-19.34.33:315][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2017.09.28-19.34.33:315][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.09.28-19.34.33:315][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.28-19.34.33:315][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.09.28-19.34.33:315][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.28-19.34.33:315][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.28-19.34.33:315][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.28-19.34.33:330][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.28-19.34.33:340][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.28-19.34.33:341][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/GitHub/EscapeRoom/EscapeRoom/Intermediate/Shaders/WorkingDirectory/8132/).
+[2017.09.28-19.34.33:341][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dougl/AppData/Local/Temp/UnrealShaderWorkingDir/687B7D67420D21475F6D6EB27553F105/'.
+[2017.09.28-19.34.33:341][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.28-19.34.34:293][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.28-19.34.34:351][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.28-19.34.34:409][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.28-19.34.34:465][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.28-19.34.34:521][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.28-19.34.34:584][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.28-19.34.34:640][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.28-19.34.34:696][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.28-19.34.34:749][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.28-19.34.34:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.28-19.34.34:856][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.28-19.34.34:911][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.28-19.34.34:962][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.28-19.34.35:018][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.28-19.34.35:069][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.28-19.34.35:173][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.28-19.34.35:173][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.28-19.34.35:213][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.28-19.34.35:308][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.28-19.34.35:341][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.28-19.34.35:391][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.28-19.34.35:441][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.28-19.34.35:490][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.28-19.34.35:541][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.28-19.34.35:541][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.28-19.34.36:048][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.28-19.34.36:139][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/dougl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.28-19.34.36:139][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dougl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.28-19.34.36:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/EscapeRoom/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.28-19.34.36:139][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.28-19.34.36:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/EscapeRoom/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.28-19.34.36:139][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.28-19.34.36:155][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.28-19.34.36:168][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dougl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.28-19.34.36:178][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.28-19.34.36:178][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.28-19.34.36:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.28-19.34.36:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.28-19.34.36:432][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.09.28-19.34.36:549][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.28-19.34.36:719][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.28-19.34.37:015][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.28-19.34.37:055][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.28-19.34.37:055][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.28-19.34.37:055][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.28-19.34.37:055][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.28-19.34.37:055][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.28-19.34.37:446][  0]LogNetVersion: EscapeRoom , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4184261634)
+[2017.09.28-19.34.37:697][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.045306 seconds
+[2017.09.28-19.34.37:703][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.28-19.34.37:703][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.28-19.34.37:703][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.28-19.34.37:765][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.28-19.34.40:396][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.28-19.34.40:438][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.28-19.34.41:163][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.28-19.34.41:581][  0]SourceControl: Source control is disabled
+[2017.09.28-19.34.41:581][  0]SourceControl: Source control is disabled
+[2017.09.28-19.34.41:632][  0]SourceControl: Source control is disabled
+[2017.09.28-19.34.41:682][  0]SourceControl: Source control is disabled
+[2017.09.28-19.34.42:305][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.28-19.34.42:552][  0]LogOcInput: OculusInput pre-init called
+[2017.09.28-19.34.42:821][  0]LogEngine: Initializing Engine...
+[2017.09.28-19.34.42:822][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.28-19.34.43:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.28-19.34.43:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.28-19.34.43:189][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.28-19.34.43:200][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-19.34.43:239][  0]LogInit: FAudioDevice initialized.
+[2017.09.28-19.34.43:373][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/dougl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.28-19.34.43:387][  0]LogInit: Texture streaming: Enabled
+[2017.09.28-19.34.43:507][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.28-19.34.43:735][  0]LogInit: Transaction tracking system initialized
+[2017.09.28-19.34.44:066][  0]BlueprintLog: New page: Editor Load
+[2017.09.28-19.34.45:052][  0]LocalizationService: Localization service is disabled
+[2017.09.28-19.34.45:881][  0]LogConsoleResponse: Display: 
+[2017.09.28-19.34.46:098][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.28-19.34.46:098][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.28-19.34.46:098][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.28-19.34.47:202][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Content/' took 0.01s
+[2017.09.28-19.34.47:252][  0]SourceControl: Source control is disabled
+[2017.09.28-19.34.47:252][  0]Cmd: MAP LOAD FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.28-19.34.47:252][  0]LightingResults: New page: Lighting Build
+[2017.09.28-19.34.47:297][  0]MapCheck: New page: Map Check
+[2017.09.28-19.34.47:297][  0]LightingResults: New page: Lighting Build
+[2017.09.28-19.34.47:458][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-19.34.47:465][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.28-19.34.47:479][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.28-19.34.47:529][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.493ms to complete.
+[2017.09.28-19.34.47:529][  0]LogFileHelpers: Loading map 'NewMap' took 0.277
+[2017.09.28-19.34.47:609][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.28-19.34.47:609][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.28-19.34.47:711][  0]LogCollectionManager: Loaded 0 collections in 0.002438 seconds
+[2017.09.28-19.34.47:798][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Collections/' took 0.01s
+[2017.09.28-19.34.47:798][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Developers/dougl/Collections/' took 0.01s
+[2017.09.28-19.34.47:798][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Collections/' took 0.01s
+[2017.09.28-19.34.47:798][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.28-19.34.47:808][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2389 classes and 504 folders.
+[2017.09.28-19.34.47:879][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.09.28-19.34.47:922][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.09.28-19.34.47:990][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.28-19.34.47:995][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.28-19.34.48:108][  0]LogRenderer: Reallocating scene render targets to support 1176x708 Format 10 NumSamples 1 (Frame:1).
+[2017.09.28-19.34.48:276][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.09.28-19.34.48:277][  0]LogLoad: (Engine Initialization) Total time: 18.17 seconds
+[2017.09.28-19.34.48:277][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.28-19.34.48:277][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.28-19.34.48:318][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.28-19.34.48:352][  1]LogAssetRegistry: Asset discovery search completed in 11.9420 seconds
+[2017.09.28-19.34.48:354][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.28-19.34.48:354][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2017.09.28-19.34.50:272][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-19.34.50:346][116]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.28-19.34.51:370][174]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.28-19.35.00:100][694]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.28-19.35.00:165][694]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.28-19.35.07:370][694]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.09.28-19.35.31:595][923]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.09.28-19.35.32:336][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.35.33:653][ 38]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-19.35.36:879][228]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.09.28-19.35.37:834][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.35.41:346][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-19.35.41:976][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.35.44:604][672]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.28-19.35.45:655][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.35.46:296][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-19.35.58:422][117]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Chair)
+[2017.09.28-19.36.03:582][422]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.28-19.36.04:811][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-19.36.45:231][157]Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom Win64 Development -editorrecompile "D:/GitHub/EscapeRoom/EscapeRoom/EscapeRoom.uproject" -invalidatemakefilesonly
+[2017.09.28-19.36.45:535][157]Invalidating makefiles only in this run.
+[2017.09.28-19.36.45:826][157]Candidate modules for hot reload:
+[2017.09.28-19.36.45:826][157]  EscapeRoom
+[2017.09.28-19.36.45:826][157]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix EscapeRoom 1945 Win64 Development -editorrecompile -canskiplink "D:/GitHub/EscapeRoom/EscapeRoom/EscapeRoom.uproject" ]
+[2017.09.28-19.36.46:667][157]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: New page: Compilation - Sep 28, 2017, 11:37:41 AM
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: Parsing headers for EscapeRoomEditor
+[2017.09.28-19.37.41:494][157]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\EscapeRoom\EscapeRoom\EscapeRoom.uproject" "D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: Reflection code generated for EscapeRoomEditor in 9.0494123 seconds
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: EscapeRoom.init.gen.cpp
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: PositionReport.cpp
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: PositionReport.gen.cpp
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: [4/5] Link UE4Editor-EscapeRoom-1945.dll
+[2017.09.28-19.37.41:494][157]CompilerResultsLog: [5/5] Link UE4Editor-EscapeRoom-1945.lib
+[2017.09.28-19.37.41:494][157]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1945.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1945.exp
+[2017.09.28-19.37.41:495][157]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1945.suppressed.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1945.suppressed.exp
+[2017.09.28-19.37.41:495][157]CompilerResultsLog: Total build time: 55.40 seconds (Local executor: 6.58 seconds)
+[2017.09.28-19.37.41:495][157]LogMainFrame: MainFrame: Module compiling took 55.679 seconds
+[2017.09.28-19.37.41:693][157]LogClass: Could not find existing class PositionReport in package /Script/EscapeRoom for HotReload, assuming new class
+[2017.09.28-19.37.41:696][157]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0013 seconds. Added 3 classes and 2 folders.
+[2017.09.28-19.37.41:698][157]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-19.37.41:764][157]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-19.37.41:764][157]Display: HotReload took 56.1s.
+[2017.09.28-19.37.41:766][157]Warning: HotReload operation took 56.1s.
+[2017.09.28-19.37.41:928][157]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/PositionReport.h'
+[2017.09.28-19.37.42:003][157]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/PositionReport.cpp'
+[2017.09.28-19.37.42:050][157]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.28-19.37.42:071][158]LogHotReload: New module detected: UE4Editor-EscapeRoom-1945.dll
+[2017.09.28-19.37.42:211][159]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-19.37.42:329][159]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0012 seconds. Added 3 classes and 2 folders.
+[2017.09.28-19.37.42:331][159]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-19.37.42:346][159]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-19.37.42:357][159]Display: HotReload took  0.1s.
+[2017.09.28-19.40.30:744][548]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/PositionReporter.h'
+[2017.09.28-19.40.30:856][548]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/PositionReporter.cpp'
+[2017.09.28-19.42.23:181][846]LogHotReload: New module detected: UE4Editor-EscapeRoom-2632.dll
+[2017.09.28-19.42.24:193][850]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-19.42.24:283][850]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 3 classes and 2 folders.
+[2017.09.28-19.42.24:284][850]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-19.42.24:315][850]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-19.42.24:325][850]Display: HotReload took  0.1s.
+[2017.09.28-19.43.00:858][  9]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-19.43.04:114][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-19.43.04:120][  9]PIE: New page: PIE session: NewMap (Sep 28, 2017, 11:43:04 AM)
+[2017.09.28-19.43.04:120][  9]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-19.43.04:123][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002483s)
+[2017.09.28-19.43.04:124][  9]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-19.43.04:124][  9]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2017.09.28-19.43.04:124][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004055s)
+[2017.09.28-19.43.04:138][  9]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-19.43.04:149][  9]LogInit: FAudioDevice initialized.
+[2017.09.28-19.43.04:192][  9]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-19.43.04:202][  9]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-15.43.04
+[2017.09.28-19.43.04:204][  9]LogWorld: Bringing up level for play took: 0.002918
+[2017.09.28-19.43.04:263][  9]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.09.28-19.43.04:264][  9]LogTemp: Warning: Position reporting.
+[2017.09.28-19.43.04:264][  9]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.368
+[2017.09.28-19.43.25:963][875]LogSlate: Took 0.012455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.09.28-19.44.33:607][298]Candidate modules for hot reload:
+[2017.09.28-19.44.33:607][298]  EscapeRoom
+[2017.09.28-19.44.33:607][298]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix EscapeRoom 3198 Win64 Development -editorrecompile -canskiplink "D:/GitHub/EscapeRoom/EscapeRoom/EscapeRoom.uproject" ]
+[2017.09.28-19.44.33:610][298]Warning: Starting HotReload took  0.0s.
+[2017.09.28-19.44.52:520][432]CompilerResultsLog: New page: Compilation - Sep 28, 2017, 11:44:52 AM
+[2017.09.28-19.44.52:520][432]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.28-19.44.52:520][432]CompilerResultsLog: Parsing headers for EscapeRoomEditor
+[2017.09.28-19.44.52:521][432]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\EscapeRoom\EscapeRoom\EscapeRoom.uproject" "D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.28-19.44.52:521][432]CompilerResultsLog: Reflection code generated for EscapeRoomEditor in 9.9551367 seconds
+[2017.09.28-19.44.52:521][432]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.09.28-19.44.52:521][432]CompilerResultsLog: PositionReport.cpp
+[2017.09.28-19.44.52:521][432]CompilerResultsLog: [2/3] Link UE4Editor-EscapeRoom-3198.dll
+[2017.09.28-19.44.52:522][432]CompilerResultsLog: [3/3] Link UE4Editor-EscapeRoom-3198.lib
+[2017.09.28-19.44.52:522][432]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-3198.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-3198.exp
+[2017.09.28-19.44.52:522][432]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-3198.suppressed.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-3198.suppressed.exp
+[2017.09.28-19.44.52:523][432]CompilerResultsLog: Total build time: 18.65 seconds (Local executor: 2.31 seconds)
+[2017.09.28-19.44.52:523][432]LogMainFrame: MainFrame: Module compiling took 18.924 seconds
+[2017.09.28-19.44.52:599][432]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0013 seconds. Added 3 classes and 2 folders.
+[2017.09.28-19.44.52:600][432]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-19.44.52:632][432]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-19.44.52:632][432]Display: HotReload took 19.0s.
+[2017.09.28-19.44.55:917][621]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-19.44.55:934][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-19.44.55:934][621]PIE: New page: PIE session: NewMap (Sep 28, 2017, 11:44:55 AM)
+[2017.09.28-19.44.55:934][621]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-19.44.55:937][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002225s)
+[2017.09.28-19.44.55:938][621]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-19.44.55:939][621]LogPlayLevel: PIE: World Init took: (0.001805s)
+[2017.09.28-19.44.55:939][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004705s)
+[2017.09.28-19.44.55:952][621]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-19.44.55:963][621]LogInit: FAudioDevice initialized.
+[2017.09.28-19.44.55:995][621]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-19.44.55:997][621]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-15.44.55
+[2017.09.28-19.44.55:997][621]LogWorld: Bringing up level for play took: 0.001447
+[2017.09.28-19.44.55:998][621]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-19.44.55:998][621]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.634
+[2017.09.28-19.45.05:088][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-19.45.06:163][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-19.46.13:917][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-19.46.14:620][979]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Chair)
+[2017.09.28-19.46.16:481][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-19.46.16:927][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-19.46.17:270][133]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Chair)
+[2017.09.28-19.46.22:969][469]Cmd: EDIT COPY
+[2017.09.28-19.46.23:484][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.46.23:930][525]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.28-19.46.28:245][777]Cmd: EDIT PASTE
+[2017.09.28-19.46.44:641][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.46.45:889][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.46.47:774][939]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.46.48:552][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.46.49:287][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.46.56:007][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.46.59:203][612]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-19.46.59:222][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-19.46.59:222][612]PIE: New page: PIE session: NewMap (Sep 28, 2017, 11:46:59 AM)
+[2017.09.28-19.46.59:222][612]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-19.46.59:225][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002549s)
+[2017.09.28-19.46.59:226][612]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-19.46.59:226][612]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2017.09.28-19.46.59:227][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004361s)
+[2017.09.28-19.46.59:240][612]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-19.46.59:251][612]LogInit: FAudioDevice initialized.
+[2017.09.28-19.46.59:285][612]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-19.46.59:288][612]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-15.46.59
+[2017.09.28-19.46.59:288][612]LogWorld: Bringing up level for play took: 0.001468
+[2017.09.28-19.46.59:289][612]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-19.46.59:289][612]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-19.46.59:289][612]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.657
+[2017.09.28-19.47.08:130][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.47.09:729][230]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.47.14:200][489]Cmd: DELETE
+[2017.09.28-19.47.14:200][489]Cmd: ACTOR DELETE
+[2017.09.28-19.47.14:206][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.28-19.47.14:216][489]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.09.28-19.48.54:666][489]LogActorFactory: Actor Factory created SM_Chair
+[2017.09.28-19.48.56:866][621]LogActorFactory: Actor Factory created SM_Chair
+[2017.09.28-19.48.58:499][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.48.59:284][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.48.59:968][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.49.00:599][838]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.49.01:414][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.49.31:924][ 11]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.09.28-19.49.44:073][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-19.49.44:114][726]LogSavePackage: Save=28.50ms
+[2017.09.28-19.49.44:115][726]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto1816CB8FF4B14FF202D16EFAAAA95EBCE.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2017.09.28-19.49.44:116][726]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2017.09.28-19.49.44:121][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.059
+[2017.09.28-19.49.44:121][726]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
+[2017.09.28-19.49.44:775][765]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-19.49.44:789][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-19.49.44:790][765]PIE: New page: PIE session: NewMap (Sep 28, 2017, 11:49:44 AM)
+[2017.09.28-19.49.44:790][765]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-19.49.44:792][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001474s)
+[2017.09.28-19.49.44:793][765]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-19.49.44:793][765]LogPlayLevel: PIE: World Init took: (0.001504s)
+[2017.09.28-19.49.44:794][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003833s)
+[2017.09.28-19.49.44:808][765]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-19.49.44:817][765]LogInit: FAudioDevice initialized.
+[2017.09.28-19.49.44:848][765]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-19.49.44:851][765]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-15.49.44
+[2017.09.28-19.49.44:851][765]LogWorld: Bringing up level for play took: 0.001386
+[2017.09.28-19.49.44:852][765]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-19.49.44:852][765]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-19.49.44:853][765]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.22
+[2017.09.28-19.50.12:678][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.50.16:827][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.52.00:595][ 32]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-19.52.14:918][389]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.28-19.52.16:549][486]Cmd: TRANSACTION UNDO
+[2017.09.28-19.52.16:549][486]LogEditorTransaction: Undo Move Actors
+[2017.09.28-19.52.16:577][486]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.28-19.52.23:871][875]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-19.52.24:537][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.52.26:054][  2]Cmd: TRANSACTION UNDO
+[2017.09.28-19.52.26:054][  2]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.28-19.53.34:196][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.53.38:207][325]Cmd: TRANSACTION UNDO
+[2017.09.28-19.53.38:207][325]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.28-19.53.39:836][420]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-19.53.45:415][753]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.28-19.53.47:281][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.53.48:497][933]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-19.53.49:843][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.53.55:109][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.53.55:577][349]Cmd: SELECT NONE
+[2017.09.28-19.53.57:676][475]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-19.54.07:238][ 46]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.28-19.54.11:589][304]Cmd: SELECT NONE
+[2017.09.28-19.54.12:322][348]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-19.54.19:314][765]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.28-19.54.20:628][842]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-19.54.20:647][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-19.54.20:648][842]PIE: New page: PIE session: NewMap (Sep 28, 2017, 11:54:20 AM)
+[2017.09.28-19.54.20:648][842]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-19.54.20:650][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002380s)
+[2017.09.28-19.54.20:652][842]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-19.54.20:652][842]LogPlayLevel: PIE: World Init took: (0.001634s)
+[2017.09.28-19.54.20:653][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004905s)
+[2017.09.28-19.54.20:668][842]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-19.54.20:681][842]LogInit: FAudioDevice initialized.
+[2017.09.28-19.54.20:712][842]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-19.54.20:715][842]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-15.54.20
+[2017.09.28-19.54.20:715][842]LogWorld: Bringing up level for play took: 0.001392
+[2017.09.28-19.54.20:717][842]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-19.54.20:717][842]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-19.54.20:717][842]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.084
+[2017.09.28-19.54.33:327][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.28-19.54.42:495][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-19.54.44:579][258]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-19.54.44:596][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-19.54.44:596][258]PIE: New page: PIE session: NewMap (Sep 28, 2017, 11:54:44 AM)
+[2017.09.28-19.54.44:596][258]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-19.54.44:599][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002229s)
+[2017.09.28-19.54.44:600][258]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-19.54.44:601][258]LogPlayLevel: PIE: World Init took: (0.001427s)
+[2017.09.28-19.54.44:601][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004371s)
+[2017.09.28-19.54.44:616][258]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-19.54.44:625][258]LogInit: FAudioDevice initialized.
+[2017.09.28-19.54.44:664][258]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-19.54.44:666][258]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-15.54.44
+[2017.09.28-19.54.44:667][258]LogWorld: Bringing up level for play took: 0.001410
+[2017.09.28-19.54.44:668][258]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-19.54.44:668][258]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-19.54.44:668][258]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.035
+[2017.09.28-20.00.15:761][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-20.00.16:169][114]LogSavePackage: Save=395.53ms
+[2017.09.28-20.00.16:169][114]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto290D0B8D846762105CC597E989D34F24C.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2017.09.28-20.00.16:169][114]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2017.09.28-20.00.16:172][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.422
+[2017.09.28-20.00.16:172][114]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.422
+[2017.09.28-20.12.36:033][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-20.12.38:799][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-20.12.39:500][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-20.12.40:419][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-20.12.41:077][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-20.12.41:977][534]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-20.12.44:428][677]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.28-20.12.56:261][382]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-20.12.57:110][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-20.12.58:024][483]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-20.13.05:904][951]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.28-20.13.09:468][163]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.28-20.13.11:938][214]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-20.13.11:958][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-20.13.11:959][214]PIE: New page: PIE session: NewMap (Sep 28, 2017, 12:13:11 PM)
+[2017.09.28-20.13.11:959][214]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-20.13.11:962][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003571s)
+[2017.09.28-20.13.11:964][214]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-20.13.11:965][214]LogPlayLevel: PIE: World Init took: (0.001859s)
+[2017.09.28-20.13.11:965][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006481s)
+[2017.09.28-20.13.11:983][214]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-20.13.11:994][214]LogInit: FAudioDevice initialized.
+[2017.09.28-20.13.12:029][214]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-20.13.12:031][214]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-16.13.12
+[2017.09.28-20.13.12:032][214]LogWorld: Bringing up level for play took: 0.002157
+[2017.09.28-20.13.12:034][214]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-20.13.12:034][214]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-20.13.12:034][214]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.599
+[2017.09.28-20.13.21:660][783]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-20.13.26:556][ 75]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.28-20.13.27:971][158]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-20.13.27:987][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-20.13.27:987][158]PIE: New page: PIE session: NewMap (Sep 28, 2017, 12:13:27 PM)
+[2017.09.28-20.13.27:987][158]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-20.13.27:989][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001978s)
+[2017.09.28-20.13.27:990][158]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-20.13.27:991][158]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2017.09.28-20.13.27:991][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003908s)
+[2017.09.28-20.13.28:006][158]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-20.13.28:017][158]LogInit: FAudioDevice initialized.
+[2017.09.28-20.13.28:054][158]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-20.13.28:056][158]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-16.13.28
+[2017.09.28-20.13.28:057][158]LogWorld: Bringing up level for play took: 0.001243
+[2017.09.28-20.13.28:058][158]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-20.13.28:058][158]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-20.13.28:058][158]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.575
+[2017.09.28-20.14.24:013][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-20.14.28:365][203]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/PositionReport.h'
+[2017.09.28-20.14.57:318][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-20.14.57:355][323]LogSavePackage: Save=27.60ms
+[2017.09.28-20.14.57:355][323]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto38F1B03724D496C7FCB4322A3C20EE1CF.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2017.09.28-20.14.57:356][323]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto3.umap
+[2017.09.28-20.14.57:359][323]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.053
+[2017.09.28-20.14.57:359][323]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.053
+[2017.09.28-20.23.39:410][247]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-20.23.39:426][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-20.23.39:426][247]PIE: New page: PIE session: NewMap (Sep 28, 2017, 12:23:39 PM)
+[2017.09.28-20.23.39:427][247]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-20.23.39:429][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002193s)
+[2017.09.28-20.23.39:431][247]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-20.23.39:432][247]LogPlayLevel: PIE: World Init took: (0.002704s)
+[2017.09.28-20.23.39:432][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005747s)
+[2017.09.28-20.23.39:447][247]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-20.23.39:460][247]LogInit: FAudioDevice initialized.
+[2017.09.28-20.23.39:492][247]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-20.23.39:494][247]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-16.23.39
+[2017.09.28-20.23.39:495][247]LogWorld: Bringing up level for play took: 0.001450
+[2017.09.28-20.23.39:496][247]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-20.23.39:496][247]LogTemp: Warning: Position reporting on Chair.
+[2017.09.28-20.23.39:496][247]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.863
+[2017.09.28-20.23.42:092][403]LogHotReload: New module detected: UE4Editor-EscapeRoom-855.dll
+[2017.09.28-20.23.42:839][448]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-20.23.42:933][448]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 3 classes and 2 folders.
+[2017.09.28-20.23.42:934][448]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-20.23.42:972][448]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-20.23.42:984][448]Display: HotReload took  0.1s.
+[2017.09.28-20.23.58:062][977]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-20.23.58:079][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-20.23.58:080][977]PIE: New page: PIE session: NewMap (Sep 28, 2017, 12:23:58 PM)
+[2017.09.28-20.23.58:080][977]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-20.23.58:082][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001985s)
+[2017.09.28-20.23.58:083][977]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-20.23.58:083][977]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2017.09.28-20.23.58:084][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003934s)
+[2017.09.28-20.23.58:099][977]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-20.23.58:109][977]LogInit: FAudioDevice initialized.
+[2017.09.28-20.23.58:145][977]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-20.23.58:147][977]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-16.23.58
+[2017.09.28-20.23.58:148][977]LogWorld: Bringing up level for play took: 0.001406
+[2017.09.28-20.23.58:149][977]LogTemp: Warning:  Position reporting for SM_Chair_2.
+[2017.09.28-20.23.58:149][977]LogTemp: Warning:  Position reporting for SM_Chair2_4.
+[2017.09.28-20.23.58:149][977]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.484
+[2017.09.28-20.34.31:424][697]LogHotReload: New module detected: UE4Editor-EscapeRoom-8589.dll
+[2017.09.28-20.34.32:432][701]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-20.34.32:537][701]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 3 classes and 2 folders.
+[2017.09.28-20.34.32:539][701]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-20.34.32:574][701]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-20.34.32:583][701]Display: HotReload took  0.2s.
+[2017.09.28-20.35.12:002][955]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-20.35.12:020][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-20.35.12:020][955]PIE: New page: PIE session: NewMap (Sep 28, 2017, 12:35:12 PM)
+[2017.09.28-20.35.12:021][955]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-20.35.12:023][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002462s)
+[2017.09.28-20.35.12:025][955]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-20.35.12:025][955]LogPlayLevel: PIE: World Init took: (0.001936s)
+[2017.09.28-20.35.12:026][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005192s)
+[2017.09.28-20.35.12:042][955]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-20.35.12:054][955]LogInit: FAudioDevice initialized.
+[2017.09.28-20.35.12:089][955]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-20.35.12:091][955]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-16.35.12
+[2017.09.28-20.35.12:092][955]LogWorld: Bringing up level for play took: 0.001483
+[2017.09.28-20.35.12:093][955]LogTemp: Warning:  Position reporting for SM_Chair_2.
+[2017.09.28-20.35.12:093][955]LogTemp: Warning:  Position reporting for SM_Chair2_4.
+[2017.09.28-20.35.12:093][955]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.54
+[2017.09.28-20.36.06:612][407]LogHotReload: New module detected: UE4Editor-EscapeRoom-6215.dll
+[2017.09.28-20.36.07:290][410]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-20.36.07:561][410]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 3 classes and 2 folders.
+[2017.09.28-20.36.07:563][410]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-20.36.07:594][410]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-20.36.07:606][410]Display: HotReload took  0.3s.
+[2017.09.28-20.41.59:282][465]LogHotReload: New module detected: UE4Editor-EscapeRoom-4912.dll
+[2017.09.28-20.41.59:959][468]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-20.42.00:054][468]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0013 seconds. Added 3 classes and 2 folders.
+[2017.09.28-20.42.00:056][468]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-20.42.00:087][468]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-20.42.00:098][468]Display: HotReload took  0.1s.
+[2017.09.28-20.42.06:573][594]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-20.42.06:590][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-20.42.06:591][594]PIE: New page: PIE session: NewMap (Sep 28, 2017, 12:42:06 PM)
+[2017.09.28-20.42.06:591][594]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-20.42.06:593][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002486s)
+[2017.09.28-20.42.06:595][594]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-20.42.06:595][594]LogPlayLevel: PIE: World Init took: (0.001762s)
+[2017.09.28-20.42.06:596][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005246s)
+[2017.09.28-20.42.06:612][594]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-20.42.06:622][594]LogInit: FAudioDevice initialized.
+[2017.09.28-20.42.06:657][594]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-20.42.06:659][594]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-16.42.06
+[2017.09.28-20.42.06:659][594]LogWorld: Bringing up level for play took: 0.001327
+[2017.09.28-20.42.06:661][594]LogTemp: Warning:  Position reporting for SM_Chair_2.
+[2017.09.28-20.42.06:661][594]LogTemp: Warning:  Position reporting for SM_Chair2_4.
+[2017.09.28-20.42.06:661][594]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.028
+[2017.09.28-20.42.32:329][899]LogHotReload: New module detected: UE4Editor-EscapeRoom-32.dll
+[2017.09.28-20.42.33:008][902]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-20.42.33:082][902]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2017.09.28-20.42.33:083][902]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-20.42.33:113][902]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-20.42.33:124][902]Display: HotReload took  0.1s.
+[2017.09.28-21.59.22:682][730]LogHotReload: New module detected: UE4Editor-EscapeRoom-179.dll
+[2017.09.28-21.59.23:359][733]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-21.59.23:468][733]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2017.09.28-21.59.23:469][733]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-21.59.23:499][733]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-21.59.23:509][733]Display: HotReload took  0.1s.
+[2017.09.28-22.19.07:640][498]LogHotReload: New module detected: UE4Editor-EscapeRoom-1730.dll
+[2017.09.28-22.19.08:315][501]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-22.19.08:407][501]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 3 classes and 2 folders.
+[2017.09.28-22.19.08:409][501]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-22.19.08:439][501]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-22.19.08:448][501]Display: HotReload took  0.1s.
+[2017.09.28-22.25.35:951][733]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-22.25.35:968][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-22.25.35:969][733]PIE: New page: PIE session: NewMap (Sep 28, 2017, 2:25:35 PM)
+[2017.09.28-22.25.35:969][733]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-22.25.35:971][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002402s)
+[2017.09.28-22.25.35:973][733]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-22.25.35:974][733]LogPlayLevel: PIE: World Init took: (0.001899s)
+[2017.09.28-22.25.35:974][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005246s)
+[2017.09.28-22.25.35:989][733]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-22.25.36:003][733]LogInit: FAudioDevice initialized.
+[2017.09.28-22.25.36:040][733]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-22.25.36:042][733]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-18.25.36
+[2017.09.28-22.25.36:043][733]LogWorld: Bringing up level for play took: 0.001404
+[2017.09.28-22.25.36:044][733]LogTemp: Warning:  Position reporting for SM_Chair_2.
+[2017.09.28-22.25.36:044][733]LogTemp: Warning:  Position reporting for SM_Chair2_4.
+[2017.09.28-22.25.36:044][733]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.589
+[2017.09.28-22.25.39:585][940]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-22.25.39:603][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-22.25.39:603][940]PIE: New page: PIE session: NewMap (Sep 28, 2017, 2:25:39 PM)
+[2017.09.28-22.25.39:604][940]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-22.25.39:607][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002340s)
+[2017.09.28-22.25.39:608][940]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-22.25.39:609][940]LogPlayLevel: PIE: World Init took: (0.001659s)
+[2017.09.28-22.25.39:609][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004644s)
+[2017.09.28-22.25.39:622][940]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-22.25.39:634][940]LogInit: FAudioDevice initialized.
+[2017.09.28-22.25.39:667][940]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-22.25.39:670][940]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-18.25.39
+[2017.09.28-22.25.39:671][940]LogWorld: Bringing up level for play took: 0.001692
+[2017.09.28-22.25.39:672][940]LogTemp: Warning:  Position reporting for SM_Chair_2.
+[2017.09.28-22.25.39:672][940]LogTemp: Warning:  Position reporting for SM_Chair2_4.
+[2017.09.28-22.25.39:673][940]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.04
+[2017.09.28-22.25.47:587][ 41]LogHotReload: New module detected: UE4Editor-EscapeRoom-9104.dll
+[2017.09.28-22.25.48:267][ 44]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-22.25.48:358][ 44]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2017.09.28-22.25.48:360][ 44]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-22.25.48:393][ 44]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-22.25.48:404][ 44]Display: HotReload took  0.1s.
+[2017.09.28-22.25.52:479][123]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-22.25.52:496][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-22.25.52:496][123]PIE: New page: PIE session: NewMap (Sep 28, 2017, 2:25:52 PM)
+[2017.09.28-22.25.52:496][123]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-22.25.52:498][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002084s)
+[2017.09.28-22.25.52:499][123]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-22.25.52:500][123]LogPlayLevel: PIE: World Init took: (0.001347s)
+[2017.09.28-22.25.52:500][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004111s)
+[2017.09.28-22.25.52:514][123]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-22.25.52:523][123]LogInit: FAudioDevice initialized.
+[2017.09.28-22.25.52:554][123]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-22.25.52:557][123]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-18.25.52
+[2017.09.28-22.25.52:557][123]LogWorld: Bringing up level for play took: 0.001513
+[2017.09.28-22.25.52:558][123]LogTemp: Warning:  SM_Chair_2 is at X=something, Y=something, Z=something.
+[2017.09.28-22.25.52:558][123]LogTemp: Warning:  SM_Chair2_4 is at X=something, Y=something, Z=something.
+[2017.09.28-22.25.52:559][123]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.074
+[2017.09.28-22.31.39:709][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.28-22.37.32:118][204]LogHotReload: New module detected: UE4Editor-EscapeRoom-9743.dll
+[2017.09.28-22.37.32:792][207]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-22.37.32:892][207]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 3 classes and 2 folders.
+[2017.09.28-22.37.32:893][207]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-22.37.32:925][207]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-22.37.32:937][207]Display: HotReload took  0.1s.
+[2017.09.28-22.37.38:453][313]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-22.37.38:471][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-22.37.38:472][313]PIE: New page: PIE session: NewMap (Sep 28, 2017, 2:37:38 PM)
+[2017.09.28-22.37.38:472][313]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-22.37.38:475][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002882s)
+[2017.09.28-22.37.38:476][313]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-22.37.38:477][313]LogPlayLevel: PIE: World Init took: (0.001574s)
+[2017.09.28-22.37.38:477][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005175s)
+[2017.09.28-22.37.38:491][313]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-22.37.38:501][313]LogInit: FAudioDevice initialized.
+[2017.09.28-22.37.38:534][313]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-22.37.38:537][313]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-18.37.38
+[2017.09.28-22.37.38:537][313]LogWorld: Bringing up level for play took: 0.001549
+[2017.09.28-22.37.38:538][313]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.28-22.37.38:539][313]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.28-22.37.38:539][313]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.094
+[2017.09.28-22.42.14:234][748]LogHotReload: New module detected: UE4Editor-EscapeRoom-1753.dll
+[2017.09.28-22.42.14:908][751]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.28-22.42.15:008][751]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0013 seconds. Added 3 classes and 2 folders.
+[2017.09.28-22.42.15:009][751]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.28-22.42.15:040][751]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2391 classes and 506 folders.
+[2017.09.28-22.42.15:050][751]Display: HotReload took  0.1s.
+[2017.09.28-23.55.09:419][948]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.28-23.55.10:246][991]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-23.55.10:267][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-23.55.10:267][991]PIE: New page: PIE session: NewMap (Sep 28, 2017, 3:55:10 PM)
+[2017.09.28-23.55.10:268][991]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-23.55.10:270][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002345s)
+[2017.09.28-23.55.10:271][991]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-23.55.10:272][991]LogPlayLevel: PIE: World Init took: (0.001512s)
+[2017.09.28-23.55.10:272][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004492s)
+[2017.09.28-23.55.10:287][991]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-23.55.10:299][991]LogInit: FAudioDevice initialized.
+[2017.09.28-23.55.10:332][991]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-23.55.10:335][991]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-19.55.10
+[2017.09.28-23.55.10:335][991]LogWorld: Bringing up level for play took: 0.001392
+[2017.09.28-23.55.10:336][991]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.28-23.55.10:336][991]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.28-23.55.10:337][991]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.296
+[2017.09.28-23.55.15:804][314]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-23.55.15:821][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-23.55.15:822][314]PIE: New page: PIE session: NewMap (Sep 28, 2017, 3:55:15 PM)
+[2017.09.28-23.55.15:822][314]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-23.55.15:824][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001865s)
+[2017.09.28-23.55.15:825][314]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-23.55.15:825][314]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2017.09.28-23.55.15:826][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004008s)
+[2017.09.28-23.55.15:842][314]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-23.55.15:854][314]LogInit: FAudioDevice initialized.
+[2017.09.28-23.55.15:891][314]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-23.55.15:894][314]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-19.55.15
+[2017.09.28-23.55.15:895][314]LogWorld: Bringing up level for play took: 0.002364
+[2017.09.28-23.55.15:896][314]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.28-23.55.15:896][314]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.28-23.55.15:896][314]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.737
+[2017.09.28-23.55.18:724][432]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-23.55.18:741][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-23.55.18:742][432]PIE: New page: PIE session: NewMap (Sep 28, 2017, 3:55:18 PM)
+[2017.09.28-23.55.18:742][432]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-23.55.18:745][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002889s)
+[2017.09.28-23.55.18:746][432]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-23.55.18:746][432]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2017.09.28-23.55.18:746][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004685s)
+[2017.09.28-23.55.18:763][432]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-23.55.18:775][432]LogInit: FAudioDevice initialized.
+[2017.09.28-23.55.18:811][432]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-23.55.18:814][432]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-19.55.18
+[2017.09.28-23.55.18:814][432]LogWorld: Bringing up level for play took: 0.001330
+[2017.09.28-23.55.18:815][432]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.28-23.55.18:815][432]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.28-23.55.18:816][432]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.183
+[2017.09.28-23.55.22:664][657]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-23.55.22:680][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-23.55.22:681][657]PIE: New page: PIE session: NewMap (Sep 28, 2017, 3:55:22 PM)
+[2017.09.28-23.55.22:681][657]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-23.55.22:683][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002429s)
+[2017.09.28-23.55.22:685][657]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-23.55.22:686][657]LogPlayLevel: PIE: World Init took: (0.001912s)
+[2017.09.28-23.55.22:686][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005004s)
+[2017.09.28-23.55.22:701][657]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-23.55.22:713][657]LogInit: FAudioDevice initialized.
+[2017.09.28-23.55.22:749][657]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-23.55.22:752][657]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-19.55.22
+[2017.09.28-23.55.22:752][657]LogWorld: Bringing up level for play took: 0.001231
+[2017.09.28-23.55.22:753][657]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.28-23.55.22:753][657]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.28-23.55.22:753][657]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.12
+[2017.09.28-23.55.35:294][399]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-23.55.35:313][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-23.55.35:313][399]PIE: New page: PIE session: NewMap (Sep 28, 2017, 3:55:35 PM)
+[2017.09.28-23.55.35:313][399]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-23.55.35:315][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001879s)
+[2017.09.28-23.55.35:316][399]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-23.55.35:317][399]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2017.09.28-23.55.35:317][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003800s)
+[2017.09.28-23.55.35:332][399]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-23.55.35:342][399]LogInit: FAudioDevice initialized.
+[2017.09.28-23.55.35:376][399]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-23.55.35:378][399]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-19.55.35
+[2017.09.28-23.55.35:378][399]LogWorld: Bringing up level for play took: 0.001208
+[2017.09.28-23.55.35:380][399]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.28-23.55.35:380][399]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.28-23.55.35:380][399]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.747
+[2017.09.28-23.55.54:884][562]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-23.55.54:902][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-23.55.54:902][562]PIE: New page: PIE session: NewMap (Sep 28, 2017, 3:55:54 PM)
+[2017.09.28-23.55.54:903][562]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-23.55.54:905][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002173s)
+[2017.09.28-23.55.54:906][562]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-23.55.54:906][562]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2017.09.28-23.55.54:907][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004179s)
+[2017.09.28-23.55.54:921][562]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-23.55.54:932][562]LogInit: FAudioDevice initialized.
+[2017.09.28-23.55.54:967][562]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-23.55.54:970][562]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-19.55.54
+[2017.09.28-23.55.54:970][562]LogWorld: Bringing up level for play took: 0.001259
+[2017.09.28-23.55.54:971][562]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.28-23.55.54:972][562]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.28-23.55.54:972][562]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.339
+[2017.09.28-23.56.01:420][947]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2017.09.28-23.56.24:793][915]MapCheck: New page: Map Check
+[2017.09.28-23.56.24:820][915]LightingResults: New page: Lighting Build - Sep 28, 2017, 3:56:24 PM
+[2017.09.28-23.56.24:884][915]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.28-23.56.24:976][915]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.28-23.56.24:996][915]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.28-23.56.26:017][915]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.28-23.56.26:017][915]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8132
+[2017.09.28-23.56.28:568][915]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.28-23.56.28:569][915]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.28-23.56.28:569][915]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.28-23.56.28:569][915]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.28-23.56.28:569][915]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.28-23.56.28:569][915]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.28-23.56.28:814][915]LogEditorBuildUtils: Build time 0:04
+[2017.09.28-23.56.28:831][915]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.09.28-23.56.28:842][915]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.09.28-23.56.28:862][916]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2017.09.28-23.56.28:869][916]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2017.09.28-23.56.28:938][917]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.09.28-23.56.28:945][917]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.09.28-23.56.28:967][918]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.09.28-23.56.28:979][918]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.09.28-23.56.31:896][928]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.28-23.56.32:723][964]Job is a success!
+[2017.09.28-23.56.39:932][388]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.09.28-23.56.39:932][388]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.09.28-23.56.39:932][388]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.09.28-23.56.39:933][388]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.09.28-23.56.39:933][388]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.09.28-23.56.39:933][388]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X128)
+[2017.09.28-23.56.39:950][388]Lightmass on LAPTOP-QBTPNRJC: 7.86 sec total, 125 ms importing, 27 ms setup, 277 ms photons, 7.42 sec processing, 0 ms extra exporting [4/4 mappings]. Threads: 51.7 sec total, 483 ms processing.
+[2017.09.28-23.56.39:971][388]LogStaticLightingSystem: Illumination: 8.03 sec (29 ms encoding lightmaps, 14 ms encoding shadowmaps)
+[2017.09.28-23.56.39:972][388]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.28-23.56.39:972][388]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.28-23.56.40:575][388]DumpUnbuiltLightIteractions
+[2017.09.28-23.56.40:575][388]Lights with unbuilt interactions: 0
+[2017.09.28-23.56.40:575][388]
+[2017.09.28-23.56.40:575][388]Primitives with unbuilt interactions: 0
+[2017.09.28-23.56.40:580][389]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.28-23.56.40:580][389]MapCheck: New page: NewMap - Sep 28, 2017, 3:56:40 PM
+[2017.09.28-23.56.40:641][389]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.566ms to complete.
+[2017.09.28-23.56.47:305][782]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.28-23.56.47:321][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-23.56.47:322][782]PIE: New page: PIE session: NewMap (Sep 28, 2017, 3:56:47 PM)
+[2017.09.28-23.56.47:322][782]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.28-23.56.47:324][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002197s)
+[2017.09.28-23.56.47:325][782]LogAIModule: Creating AISystem for world NewMap
+[2017.09.28-23.56.47:326][782]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2017.09.28-23.56.47:326][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004188s)
+[2017.09.28-23.56.47:343][782]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.28-23.56.47:355][782]LogInit: FAudioDevice initialized.
+[2017.09.28-23.56.47:387][782]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.28-23.56.47:389][782]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-19.56.47
+[2017.09.28-23.56.47:390][782]LogWorld: Bringing up level for play took: 0.001311
+[2017.09.28-23.56.47:391][782]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.28-23.56.47:391][782]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.28-23.56.47:391][782]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.758
+[2017.09.28-23.57.26:227][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-23.57.26:263][699]LogSavePackage: Save=27.43ms
+[2017.09.28-23.57.26:263][699]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto4832FE8F744F61774C05352AF3090518B.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto4.umap'
+[2017.09.28-23.57.26:264][699]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto4.umap
+[2017.09.28-23.57.26:269][699]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.053
+[2017.09.28-23.57.26:269][699]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.053
+[2017.09.28-23.57.26:271][699]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewMap_BuiltData] ([1] browsable assets)...
+[2017.09.28-23.57.26:271][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewMap_BuiltData]
+[2017.09.28-23.57.26:271][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_BuiltData_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.09.28-23.57.26:658][699]LogSavePackage: Save=9.07ms
+[2017.09.28-23.57.26:659][699]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltData_Auto4906B4D6E47410444C089E1A8A6A59034.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_BuiltData_Auto4.uasset'
+[2017.09.28-23.57.26:659][699]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_BuiltData_Auto4.uasset
+[2017.09.28-23.57.26:659][699]LogFileHelpers: Auto-saving content packages took 0.389
+[2017.09.28-23.58.02:880][872]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.28-23.58.04:642][976]Cmd: SELECT NONE
+[2017.09.28-23.58.05:542][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-23.58.06:561][ 88]Cmd: SELECT NONE
+[2017.09.29-00.00.16:213][305]LogActorFactory: Actor Factory created SM_DoorFrame
+[2017.09.29-00.00.22:866][704]LogActorFactory: Actor Factory created SM_DoorFrame
+[2017.09.29-00.00.49:650][108]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-00.00.51:720][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-00.00.53:004][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2017.09.29-00.00.58:529][615]LogActorFactory: Actor Factory created SM_Door
+[2017.09.29-00.01.05:797][ 44]LogActorFactory: Actor Factory created SM_Door
+[2017.09.29-00.01.06:926][110]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-00.01.17:319][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.01.23:979][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.01.27:326][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2017.09.29-00.01.28:883][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.01.35:286][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-00.01.36:253][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-00.01.36:821][887]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-00.01.37:230][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.01.41:038][135]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-00.01.50:019][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.01.54:892][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-00.01.55:890][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.02.07:754][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.02.50:584][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.02.51:119][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.02.51:617][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.03.14:519][288]Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom Win64 Development -editorrecompile "D:/GitHub/EscapeRoom/EscapeRoom/EscapeRoom.uproject" -invalidatemakefilesonly
+[2017.09.29-00.03.14:822][288]Invalidating makefiles only in this run.
+[2017.09.29-00.03.14:955][288]Candidate modules for hot reload:
+[2017.09.29-00.03.14:955][288]  EscapeRoom
+[2017.09.29-00.03.14:955][288]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix EscapeRoom 9191 Win64 Development -editorrecompile -canskiplink "D:/GitHub/EscapeRoom/EscapeRoom/EscapeRoom.uproject" ]
+[2017.09.29-00.03.32:532][288]CompilerResultsLog: New page: Compilation - Sep 28, 2017, 4:03:32 PM
+[2017.09.29-00.03.32:533][288]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.29-00.03.32:533][288]CompilerResultsLog: Parsing headers for EscapeRoomEditor
+[2017.09.29-00.03.32:533][288]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\EscapeRoom\EscapeRoom\EscapeRoom.uproject" "D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.29-00.03.32:533][288]CompilerResultsLog: Reflection code generated for EscapeRoomEditor in 8.9381487 seconds
+[2017.09.29-00.03.32:533][288]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.09.29-00.03.32:533][288]CompilerResultsLog: EscapeRoom.init.gen.cpp
+[2017.09.29-00.03.32:533][288]CompilerResultsLog: OpenDoor.gen.cpp
+[2017.09.29-00.03.32:533][288]CompilerResultsLog: OpenDoor.cpp
+[2017.09.29-00.03.32:533][288]CompilerResultsLog: [4/5] Link UE4Editor-EscapeRoom-9191.dll
+[2017.09.29-00.03.32:533][288]CompilerResultsLog: [5/5] Link UE4Editor-EscapeRoom-9191.lib
+[2017.09.29-00.03.32:534][288]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-9191.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-9191.exp
+[2017.09.29-00.03.32:534][288]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-9191.suppressed.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-9191.suppressed.exp
+[2017.09.29-00.03.32:534][288]CompilerResultsLog: Total build time: 17.35 seconds (Local executor: 2.56 seconds)
+[2017.09.29-00.03.32:534][288]LogMainFrame: MainFrame: Module compiling took 17.589 seconds
+[2017.09.29-00.03.32:719][288]LogClass: Could not find existing class OpenDoor in package /Script/EscapeRoom for HotReload, assuming new class
+[2017.09.29-00.03.32:723][288]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 4 classes and 2 folders.
+[2017.09.29-00.03.32:725][288]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.29-00.03.32:761][288]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2392 classes and 506 folders.
+[2017.09.29-00.03.32:762][288]Display: HotReload took 17.8s.
+[2017.09.29-00.03.32:764][288]Warning: HotReload operation took 17.8s.
+[2017.09.29-00.03.32:958][288]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/OpenDoor.h'
+[2017.09.29-00.03.33:117][288]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/OpenDoor.cpp'
+[2017.09.29-00.03.33:183][289]LogHotReload: New module detected: UE4Editor-EscapeRoom-9191.dll
+[2017.09.29-00.03.33:208][290]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.29-00.03.33:347][290]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 4 classes and 2 folders.
+[2017.09.29-00.03.33:349][290]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.29-00.03.33:363][290]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2392 classes and 506 folders.
+[2017.09.29-00.03.33:373][290]Display: HotReload took  0.2s.
+[2017.09.29-00.03.52:186][682]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.09.29-00.03.53:080][734]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.09.29-00.07.27:538][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.29-00.07.28:157][  8]LogSavePackage: Save=42.96ms
+[2017.09.29-00.07.28:157][  8]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto55FBD45C0411B8854C74D669249A6E5BA.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto5.umap'
+[2017.09.29-00.07.28:221][  8]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto5.umap
+[2017.09.29-00.07.28:224][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.696
+[2017.09.29-00.07.28:224][  8]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.696
+[2017.09.29-00.13.51:578][159]LogHotReload: New module detected: UE4Editor-EscapeRoom-2893.dll
+[2017.09.29-00.13.52:256][162]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.29-00.13.52:355][162]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0015 seconds. Added 4 classes and 2 folders.
+[2017.09.29-00.13.52:357][162]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.29-00.13.52:390][162]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2392 classes and 506 folders.
+[2017.09.29-00.13.52:400][162]Display: HotReload took  0.1s.
+[2017.09.29-00.13.58:085][240]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.29-00.13.58:103][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-00.13.58:103][240]PIE: New page: PIE session: NewMap (Sep 28, 2017, 4:13:58 PM)
+[2017.09.29-00.13.58:103][240]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.29-00.13.58:106][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002276s)
+[2017.09.29-00.13.58:107][240]LogAIModule: Creating AISystem for world NewMap
+[2017.09.29-00.13.58:107][240]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2017.09.29-00.13.58:108][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004514s)
+[2017.09.29-00.13.58:124][240]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-00.13.58:136][240]LogInit: FAudioDevice initialized.
+[2017.09.29-00.13.58:171][240]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.29-00.13.58:174][240]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-20.13.58
+[2017.09.29-00.13.58:175][240]LogWorld: Bringing up level for play took: 0.001467
+[2017.09.29-00.13.58:176][240]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.29-00.13.58:176][240]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.29-00.13.58:176][240]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.457
+[2017.09.29-00.15.04:177][635]LogHotReload: New module detected: UE4Editor-EscapeRoom-48.dll
+[2017.09.29-00.15.04:852][638]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.29-00.15.04:954][638]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 4 classes and 2 folders.
+[2017.09.29-00.15.04:956][638]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.29-00.15.04:996][638]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2392 classes and 506 folders.
+[2017.09.29-00.15.05:007][638]Display: HotReload took  0.2s.
+[2017.09.29-00.15.07:824][695]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.29-00.15.07:842][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-00.15.07:842][695]PIE: New page: PIE session: NewMap (Sep 28, 2017, 4:15:07 PM)
+[2017.09.29-00.15.07:842][695]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.29-00.15.07:845][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002199s)
+[2017.09.29-00.15.07:846][695]LogAIModule: Creating AISystem for world NewMap
+[2017.09.29-00.15.07:847][695]LogPlayLevel: PIE: World Init took: (0.001603s)
+[2017.09.29-00.15.07:847][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004700s)
+[2017.09.29-00.15.07:861][695]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-00.15.07:871][695]LogInit: FAudioDevice initialized.
+[2017.09.29-00.15.07:902][695]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.29-00.15.07:905][695]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-20.15.07
+[2017.09.29-00.15.07:905][695]LogWorld: Bringing up level for play took: 0.001613
+[2017.09.29-00.15.07:907][695]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.29-00.15.07:907][695]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.29-00.15.07:907][695]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.726
+[2017.09.29-00.15.24:379][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.15.29:527][980]Cmd: SELECT NONE
+[2017.09.29-00.15.38:504][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.15.49:806][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2017.09.29-00.15.50:967][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.29-00.16.01:401][868]Cmd: SELECT NONE
+[2017.09.29-00.16.03:478][992]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.29-00.16.03:496][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-00.16.03:496][992]PIE: New page: PIE session: NewMap (Sep 28, 2017, 4:16:03 PM)
+[2017.09.29-00.16.03:496][992]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.29-00.16.03:498][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001954s)
+[2017.09.29-00.16.03:499][992]LogAIModule: Creating AISystem for world NewMap
+[2017.09.29-00.16.03:500][992]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2017.09.29-00.16.03:500][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003818s)
+[2017.09.29-00.16.03:514][992]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-00.16.03:523][992]LogInit: FAudioDevice initialized.
+[2017.09.29-00.16.03:556][992]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.29-00.16.03:558][992]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-20.16.03
+[2017.09.29-00.16.03:559][992]LogWorld: Bringing up level for play took: 0.001413
+[2017.09.29-00.16.03:560][992]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.29-00.16.03:560][992]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.29-00.16.03:560][992]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.927
+[2017.09.29-00.17.05:990][781]LogHotReload: New module detected: UE4Editor-EscapeRoom-8295.dll
+[2017.09.29-00.17.06:669][784]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.29-00.17.06:802][784]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0013 seconds. Added 4 classes and 2 folders.
+[2017.09.29-00.17.06:804][784]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.29-00.17.06:838][784]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2392 classes and 506 folders.
+[2017.09.29-00.17.06:847][784]Display: HotReload took  0.2s.
+[2017.09.29-00.17.11:940][886]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.29-00.17.11:958][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-00.17.11:958][886]PIE: New page: PIE session: NewMap (Sep 28, 2017, 4:17:11 PM)
+[2017.09.29-00.17.11:958][886]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.29-00.17.11:961][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002130s)
+[2017.09.29-00.17.11:962][886]LogAIModule: Creating AISystem for world NewMap
+[2017.09.29-00.17.11:962][886]LogPlayLevel: PIE: World Init took: (0.001441s)
+[2017.09.29-00.17.11:963][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004410s)
+[2017.09.29-00.17.11:978][886]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-00.17.11:990][886]LogInit: FAudioDevice initialized.
+[2017.09.29-00.17.12:026][886]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.29-00.17.12:030][886]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-20.17.12
+[2017.09.29-00.17.12:030][886]LogWorld: Bringing up level for play took: 0.002215
+[2017.09.29-00.17.12:031][886]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.29-00.17.12:032][886]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.29-00.17.12:032][886]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.601
+[2017.09.29-00.17.33:045][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.29-00.17.33:098][141]LogSavePackage: Save=33.65ms
+[2017.09.29-00.17.33:098][141]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMapE1A24D4149B6E3F5A9D01ABCD3AD0370.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
+[2017.09.29-00.17.33:103][141]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
+[2017.09.29-00.17.33:133][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.29-00.17.33:261][141]LogSavePackage: Save=121.13ms
+[2017.09.29-00.17.33:261][141]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltDataCDCE4E20423AEEFD3CE2B9B67C6A1551.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2017.09.29-00.17.33:266][141]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2017.09.29-00.17.36:966][358]MapCheck: New page: Map Check
+[2017.09.29-00.17.36:991][358]LightingResults: New page: Lighting Build - Sep 28, 2017, 4:17:36 PM
+[2017.09.29-00.17.37:003][358]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.29-00.17.37:007][358]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.29-00.17.37:007][358]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.29-00.17.37:009][358]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.29-00.17.37:009][358]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8132
+[2017.09.29-00.17.41:675][358]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.29-00.17.41:675][358]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.29-00.17.41:675][358]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.29-00.17.41:675][358]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.29-00.17.41:675][358]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.29-00.17.41:675][358]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.29-00.17.41:811][358]LogEditorBuildUtils: Build time 0:04
+[2017.09.29-00.17.41:822][358]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2017.09.29-00.17.41:827][358]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2017.09.29-00.17.44:016][420]Job is a success!
+[2017.09.29-00.17.44:189][421]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.09.29-00.17.44:189][421]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.09.29-00.17.44:189][421]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.09.29-00.17.44:189][421]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.09.29-00.17.44:189][421]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.09.29-00.17.44:189][421]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 512X128)
+[2017.09.29-00.17.44:209][421]Lightmass on LAPTOP-QBTPNRJC: 1.03 sec total, 135 ms importing, 30 ms setup, 277 ms photons, 575 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 3.87 sec total, 821 ms processing.
+[2017.09.29-00.17.44:218][421]LogStaticLightingSystem: Illumination: 7.20 sec (67 ms encoding lightmaps, 27 ms encoding shadowmaps)
+[2017.09.29-00.17.44:218][421]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.29-00.17.44:218][421]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.29-00.17.44:676][421]DumpUnbuiltLightIteractions
+[2017.09.29-00.17.44:677][421]Lights with unbuilt interactions: 0
+[2017.09.29-00.17.44:677][421]
+[2017.09.29-00.17.44:677][421]Primitives with unbuilt interactions: 0
+[2017.09.29-00.17.44:689][422]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.29-00.17.44:689][422]MapCheck: New page: NewMap - Sep 28, 2017, 4:17:44 PM
+[2017.09.29-00.17.44:743][422]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.13ms to complete.
+[2017.09.29-00.17.48:530][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.29-00.17.48:573][643]LogSavePackage: Save=31.58ms
+[2017.09.29-00.17.48:574][643]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMapEFE3A19E48112E72085BEC923A860CB3.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
+[2017.09.29-00.17.48:580][643]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
+[2017.09.29-00.17.48:609][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.29-00.17.48:637][643]LogSavePackage: Save=25.77ms
+[2017.09.29-00.17.48:637][643]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltData52019BBE4CC1BFC2B0DAD3BD1CBF6616.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2017.09.29-00.17.48:639][643]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2017.09.29-00.17.52:274][860]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.29-00.17.52:292][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-00.17.52:293][860]PIE: New page: PIE session: NewMap (Sep 28, 2017, 4:17:52 PM)
+[2017.09.29-00.17.52:293][860]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.29-00.17.52:295][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001943s)
+[2017.09.29-00.17.52:296][860]LogAIModule: Creating AISystem for world NewMap
+[2017.09.29-00.17.52:296][860]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2017.09.29-00.17.52:297][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003657s)
+[2017.09.29-00.17.52:310][860]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-00.17.52:321][860]LogInit: FAudioDevice initialized.
+[2017.09.29-00.17.52:356][860]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.29-00.17.52:359][860]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.28-20.17.52
+[2017.09.29-00.17.52:359][860]LogWorld: Bringing up level for play took: 0.001391
+[2017.09.29-00.17.52:360][860]LogTemp: Warning:  SM_Chair_2 is at X=-450.000 Y=250.000 Z=20.000.
+[2017.09.29-00.17.52:360][860]LogTemp: Warning:  SM_Chair2_4 is at X=-450.000 Y=40.000 Z=20.000.
+[2017.09.29-00.17.52:360][860]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.272
+[2017.09.29-00.17.57:823][ 91]Cmd: QUIT_EDITOR
+[2017.09.29-00.17.58:136][ 91]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.29-00.17.58:136][ 91]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.29-00.17.58:154][ 91]LogExit: Preparing to exit.
+[2017.09.29-00.17.58:756][ 91]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.09.29-00.17.58:781][ 91]LogExit: Editor shut down
+[2017.09.29-00.17.58:790][ 91]LogExit: Transaction tracking system shut down
+[2017.09.29-00.17.58:884][ 91]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.29-00.17.58:884][ 91]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Content/' was aborted.
+[2017.09.29-00.17.58:884][ 91]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.29-00.17.58:885][ 91]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.29-00.17.58:885][ 91]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.29-00.17.58:921][ 91]LogExit: Object subsystem successfully closed.
+[2017.09.29-00.17.58:948][ 91]LogD3D11RHI: Shutdown
+[2017.09.29-00.17.58:948][ 91]LogD3D11RHI: CleanupD3DDevice
+[2017.09.29-00.17.59:038][ 91]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.29-00.17.59:053][ 91]LogModuleManager: Shutting down and abandoning module EscapeRoom (553)
+[2017.09.29-00.17.59:053][ 91]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (537)
+[2017.09.29-00.17.59:053][ 91]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.09.29-00.17.59:053][ 91]LogModuleManager: Shutting down and abandoning module AddContentDialog (530)
+[2017.09.29-00.17.59:053][ 91]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module WidgetCarousel (529)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module EditorWidgets (526)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module CollectionManager (524)
+[2017.09.29-00.17.59:054][ 91]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Collections/' was aborted.
+[2017.09.29-00.17.59:054][ 91]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Developers/dougl/Collections/' was aborted.
+[2017.09.29-00.17.59:054][ 91]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Collections/' was aborted.
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.09.29-00.17.59:054][ 91]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.09.29-00.17.59:055][ 91]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.09.29-00.17.59:388][ 91]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.09.29-00.17.59:389][ 91]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.09.29-00.17.59:390][ 91]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.09.29-00.17.59:390][ 91]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.09.29-00.17.59:390][ 91]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.09.29-00.17.59:390][ 91]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.09.29-00.17.59:444][ 91]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.09.29-00.17.59:444][ 91]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.09.29-00.17.59:444][ 91]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.09.29-00.17.59:444][ 91]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.09.29-00.17.59:444][ 91]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.09.29-00.17.59:444][ 91]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.09.29-00.17.59:444][ 91]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.09.29-00.17.59:445][ 91]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.09.29-00.17.59:445][ 91]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.09.29-00.17.59:445][ 91]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.09.29-00.17.59:445][ 91]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.09.29-00.17.59:447][ 91]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.09.29-00.17.59:448][ 91]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.09.29-00.17.59:448][ 91]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.09.29-00.17.59:579][ 91]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.09.29-00.17.59:580][ 91]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.09.29-00.17.59:580][ 91]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.09.29-00.17.59:580][ 91]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.09.29-00.17.59:580][ 91]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.09.29-00.17.59:580][ 91]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.09.29-00.17.59:581][ 91]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.09.29-00.17.59:581][ 91]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.09.29-00.17.59:581][ 91]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.09.29-00.17.59:581][ 91]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Binaries/Win64' was aborted.
+[2017.09.29-00.17.59:582][ 91]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.29-00.17.59:582][ 91]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.29-00.17.59:582][ 91]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.29-00.17.59:582][ 91]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.29-00.17.59:582][ 91]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.29-00.17.59:582][ 91]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.29-00.17.59:582][ 91]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.29-00.17.59:582][ 91]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.29-00.17.59:682][ 91]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.29-00.17.59:782][ 91]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.29-00.17.59:782][ 91]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.29-00.17.59:782][ 91]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.29-00.17.59:782][ 91]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.29-00.17.59:782][ 91]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.29-00.17.59:782][ 91]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.29-00.17.59:783][ 91]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.29-00.17.59:786][ 91]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.29-00.17.59:787][ 91]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.29-00.17.59:874][ 91]LogDerivedDataCache: Shutdown
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.29-00.17.59:874][ 91]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.29-00.17.59:875][ 91]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.29-00.17.59:875][ 91]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.29-00.17.59:875][ 91]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.29-00.17.59:875][ 91]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B013B9293-4BFC-DF4D-48EA-36ACC4BE0F9C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=fe3eb03e4c6bd5b2053d609c84892995%7C673b42d9777c456f98e04f52d2f183ec%7C6d92607c-9b4e-4e4e-8049-db495ba2a9b2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.29-00.17.59:904][ 91]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.29-00.17.59:905][ 91]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.29-00.17.59:905][ 91]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.29-00.17.59:905][ 91]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.29-00.17.59:905][ 91]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.29-00.17.59:905][ 91]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.29-00.17.59:905][ 91]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.29-00.17.59:905][ 91]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.29-00.17.59:906][ 91]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.29-00.17.59:911][ 91]LogExit: Exiting.
+[2017.09.29-00.17.59:925][ 91]Log file closed, 09/28/17 20:17:59
