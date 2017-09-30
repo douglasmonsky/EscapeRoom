@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 	ESCAPEROOM_API UClass* Z_Construct_UClass_UOpenDoor();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_EscapeRoom();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 // End Cross Module References
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
@@ -42,7 +41,6 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20B00080u;
 
 
-				UProperty* NewProp_ActorThatOpens = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ActorThatOpens"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(ActorThatOpens, UOpenDoor), 0x0040000000000001, Z_Construct_UClass_AActor_NoRegister());
 				UProperty* NewProp_PressurePlate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PressurePlate"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(PressurePlate, UOpenDoor), 0x0040000000000001, Z_Construct_UClass_ATriggerVolume_NoRegister());
 				UProperty* NewProp_OpenAngle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OpenAngle"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(OpenAngle, UOpenDoor), 0x0040000000020001);
 				static TCppClassTypeInfo<TCppClassTypeTraits<UOpenDoor> > StaticCppClassTypeInfo;
@@ -54,8 +52,6 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("OpenDoor.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
-				MetaData->SetValue(NewProp_ActorThatOpens, TEXT("Category"), TEXT("OpenDoor"));
-				MetaData->SetValue(NewProp_ActorThatOpens, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
 				MetaData->SetValue(NewProp_PressurePlate, TEXT("Category"), TEXT("OpenDoor"));
 				MetaData->SetValue(NewProp_PressurePlate, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
 				MetaData->SetValue(NewProp_OpenAngle, TEXT("Category"), TEXT("OpenDoor"));
@@ -66,7 +62,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UOpenDoor, 381920048);
+	IMPLEMENT_CLASS(UOpenDoor, 1069960981);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UOpenDoor(Z_Construct_UClass_UOpenDoor, &UOpenDoor::StaticClass, TEXT("/Script/EscapeRoom"), TEXT("UOpenDoor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenDoor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
