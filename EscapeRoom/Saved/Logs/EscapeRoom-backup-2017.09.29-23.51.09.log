@@ -1,0 +1,645 @@
+﻿Log file open, 09/29/17 23:37:57
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: EscapeRoom
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(732309906) SRandInit(732309906).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.194408
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.30-03.37.58:906][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.30-03.37.58:906][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.30-03.37.58:919][  0]LogInit: Computer: LAPTOP-QBTPNRJC
+[2017.09.30-03.37.58:919][  0]LogInit: User: dougl
+[2017.09.30-03.37.58:919][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.30-03.37.58:919][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.09.30-03.37.58:919][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2017.09.30-03.37.58:919][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.30-03.37.58:919][  0]LogMemory: Process Physical Memory: 279.35 MB used, 279.35 MB peak
+[2017.09.30-03.37.58:919][  0]LogMemory: Process Virtual Memory: 282.45 MB used, 282.45 MB peak
+[2017.09.30-03.37.58:919][  0]LogMemory: Physical Memory: 6631.46 MB used,  9580.32 MB free, 16211.78 MB total
+[2017.09.30-03.37.58:919][  0]LogMemory: Virtual Memory: 677.02 MB used,  9580.32 MB free, 134217728.00 MB total
+[2017.09.30-03.37.59:117][  0]LogInit: Using OS detected language (en-US).
+[2017.09.30-03.37.59:117][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.30-03.37.59:120][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.30-03.37.59:918][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.30-03.37.59:946][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.09.30-03.37.59:946][  0]LogD3D11RHI:       4064/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.30-03.37.59:954][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.09.30-03.37.59:954][  0]LogD3D11RHI:       128/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.30-03.37.59:955][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.30-03.37.59:955][  0]LogD3D11RHI:       0/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.30-03.37.59:955][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.30-03.37.59:961][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.30-03.37.59:961][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.09.30-03.37.59:961][  0]LogWindows: EnumDisplayDevices:
+[2017.09.30-03.37.59:961][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.09.30-03.37.59:961][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2017.09.30-03.37.59:962][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.09.30-03.37.59:962][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.30-03.37.59:962][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.09.30-03.37.59:962][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.30-03.37.59:962][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.30-03.37.59:962][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.30-03.37.59:980][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.30-03.37.59:992][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.30-03.37.59:993][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/GitHub/EscapeRoom/EscapeRoom/Intermediate/Shaders/WorkingDirectory/6784/).
+[2017.09.30-03.37.59:993][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dougl/AppData/Local/Temp/UnrealShaderWorkingDir/68AE71AF4B79B88626A58EA2DA79991C/'.
+[2017.09.30-03.37.59:993][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.30-03.38.01:024][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.30-03.38.01:077][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.30-03.38.01:131][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.30-03.38.01:185][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.30-03.38.01:238][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.30-03.38.01:291][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.30-03.38.01:343][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.30-03.38.01:398][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.30-03.38.01:445][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.30-03.38.01:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.30-03.38.01:552][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.30-03.38.01:604][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.30-03.38.01:658][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.30-03.38.01:710][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.30-03.38.01:763][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.30-03.38.01:867][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.30-03.38.01:867][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.30-03.38.01:908][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.30-03.38.02:005][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.30-03.38.02:037][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.30-03.38.02:089][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.30-03.38.02:140][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.30-03.38.02:192][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.30-03.38.02:242][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.30-03.38.02:242][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.30-03.38.02:766][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.30-03.38.02:862][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/dougl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.30-03.38.02:862][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dougl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.30-03.38.02:862][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/EscapeRoom/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.30-03.38.02:862][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.30-03.38.02:862][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/EscapeRoom/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.30-03.38.02:862][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.30-03.38.02:878][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.30-03.38.02:890][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dougl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.30-03.38.02:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.30-03.38.02:900][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.30-03.38.02:901][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.30-03.38.02:901][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.30-03.38.03:174][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2017.09.30-03.38.03:292][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.30-03.38.03:695][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.30-03.38.03:740][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.30-03.38.03:740][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.30-03.38.03:740][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.30-03.38.03:740][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.30-03.38.03:740][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.30-03.38.03:741][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.30-03.38.04:211][  0]LogNetVersion: EscapeRoom , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4184261634)
+[2017.09.30-03.38.04:439][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.042844 seconds
+[2017.09.30-03.38.04:445][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.30-03.38.04:445][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.30-03.38.04:445][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.30-03.38.04:513][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.30-03.38.07:209][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.30-03.38.07:251][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.30-03.38.07:980][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.30-03.38.08:418][  0]SourceControl: Source control is disabled
+[2017.09.30-03.38.08:418][  0]SourceControl: Source control is disabled
+[2017.09.30-03.38.08:470][  0]SourceControl: Source control is disabled
+[2017.09.30-03.38.08:521][  0]SourceControl: Source control is disabled
+[2017.09.30-03.38.09:151][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.30-03.38.09:412][  0]LogOcInput: OculusInput pre-init called
+[2017.09.30-03.38.09:684][  0]LogEngine: Initializing Engine...
+[2017.09.30-03.38.09:685][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.30-03.38.09:925][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.30-03.38.09:925][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.30-03.38.10:062][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.30-03.38.10:073][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-03.38.10:087][  0]LogInit: FAudioDevice initialized.
+[2017.09.30-03.38.10:217][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/dougl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.30-03.38.10:224][  0]LogInit: Texture streaming: Enabled
+[2017.09.30-03.38.10:348][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.30-03.38.10:348][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={BF279FC7-4F9D-C491-FC91-6291478C68A2}
+[2017.09.30-03.38.10:581][  0]LogInit: Transaction tracking system initialized
+[2017.09.30-03.38.10:901][  0]BlueprintLog: New page: Editor Load
+[2017.09.30-03.38.11:842][  0]LocalizationService: Localization service is disabled
+[2017.09.30-03.38.12:639][  0]LogConsoleResponse: Display: 
+[2017.09.30-03.38.12:844][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.30-03.38.12:844][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.30-03.38.12:844][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.30-03.38.12:850][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Content/' took 0.01s
+[2017.09.30-03.38.13:976][  0]SourceControl: Source control is disabled
+[2017.09.30-03.38.13:976][  0]Cmd: MAP LOAD FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.30-03.38.13:977][  0]LightingResults: New page: Lighting Build
+[2017.09.30-03.38.14:021][  0]MapCheck: New page: Map Check
+[2017.09.30-03.38.14:021][  0]LightingResults: New page: Lighting Build
+[2017.09.30-03.38.14:262][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.09.30-03.38.14:262][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.09.30-03.38.14:262][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.09.30-03.38.14:262][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.09.30-03.38.14:262][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.09.30-03.38.14:262][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.09.30-03.38.14:603][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-03.38.14:610][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.30-03.38.14:622][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.30-03.38.14:675][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.35ms to complete.
+[2017.09.30-03.38.14:675][  0]LogFileHelpers: Loading map 'NewMap' took 0.699
+[2017.09.30-03.38.14:748][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.30-03.38.14:748][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.30-03.38.14:846][  0]LogCollectionManager: Loaded 0 collections in 0.001864 seconds
+[2017.09.30-03.38.14:933][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Collections/' took 0.01s
+[2017.09.30-03.38.14:933][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Developers/dougl/Collections/' took 0.01s
+[2017.09.30-03.38.14:933][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Collections/' took 0.01s
+[2017.09.30-03.38.14:933][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.30-03.38.14:942][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2391 classes and 504 folders.
+[2017.09.30-03.38.15:017][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.09.30-03.38.15:062][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.09.30-03.38.15:149][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.30-03.38.15:154][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.30-03.38.15:156][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.30-03.38.15:156][  0]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.09.30-03.38.15:269][  0]LogRenderer: Reallocating scene render targets to support 1176x540 Format 10 NumSamples 1 (Frame:1).
+[2017.09.30-03.38.15:472][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.09.30-03.38.15:472][  0]LogLoad: (Engine Initialization) Total time: 19.02 seconds
+[2017.09.30-03.38.15:472][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.30-03.38.15:472][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.30-03.38.15:513][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.30-03.38.15:550][  1]LogAssetRegistry: Asset discovery search completed in 12.3981 seconds
+[2017.09.30-03.38.15:551][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.30-03.38.15:552][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000154 seconds (updated 0 objects)
+[2017.09.30-03.38.18:098][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x306)
+[2017.09.30-03.38.19:112][194]Cmd: EDIT CUT
+[2017.09.30-03.38.19:117][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.30-03.38.19:128][194]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.09.30-03.38.23:197][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.09.30-03.38.37:994][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.09.30-03.38.38:882][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.09.30-03.38.40:088][440]Cmd: SELECT NONE
+[2017.09.30-03.38.46:368][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2017.09.30-03.38.47:686][888]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.30-03.38.57:756][488]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.30-03.38.57:769][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.30-03.38.57:855][488]LogSavePackage: Save=70.66ms
+[2017.09.30-03.38.57:855][488]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap18F80186488419669C63A0B8130BC36A.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
+[2017.09.30-03.38.57:857][488]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
+[2017.09.30-03.38.57:884][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.30-03.38.58:064][488]LogSavePackage: Save=177.54ms
+[2017.09.30-03.38.58:065][488]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltData7D9CC03A4720B600F5DDA1843917BC34.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2017.09.30-03.38.58:066][488]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2017.09.30-03.38.59:519][570]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-03.38.59:550][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-03.38.59:550][570]PIE: New page: PIE session: NewMap (Sep 29, 2017, 7:38:59 PM)
+[2017.09.30-03.38.59:550][570]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-03.38.59:554][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003220s)
+[2017.09.30-03.38.59:555][570]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-03.38.59:555][570]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2017.09.30-03.38.59:555][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004902s)
+[2017.09.30-03.38.59:567][570]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-03.38.59:577][570]LogInit: FAudioDevice initialized.
+[2017.09.30-03.38.59:621][570]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.30-03.38.59:625][570]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.29-23.38.59
+[2017.09.30-03.38.59:625][570]LogWorld: Bringing up level for play took: 0.002306
+[2017.09.30-03.38.59:672][570]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.09.30-03.38.59:673][570]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-03.38.59:673][570]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-03.38.59:673][570]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.305
+[2017.09.30-03.39.08:770][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.09.30-03.39.10:786][216]Cmd: EDIT CUT
+[2017.09.30-03.39.10:788][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.30-03.39.10:798][216]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.09.30-03.39.13:420][374]Cmd: TRANSACTION UNDO
+[2017.09.30-03.39.13:420][374]LogEditorTransaction: Undo Cut
+[2017.09.30-03.39.13:466][374]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.30-03.39.15:666][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.09.30-03.39.16:869][568]Cmd: EDIT CUT
+[2017.09.30-03.39.16:874][568]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.30-03.39.16:883][568]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.09.30-03.39.20:614][792]Cmd: TRANSACTION UNDO
+[2017.09.30-03.39.20:614][792]LogEditorTransaction: Undo Cut
+[2017.09.30-03.39.30:879][398]MapCheck: New page: Map Check
+[2017.09.30-03.39.30:905][398]LightingResults: New page: Lighting Build - Sep 29, 2017, 7:39:30 PM
+[2017.09.30-03.39.30:953][398]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.30-03.39.31:038][398]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.30-03.39.31:047][398]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.30-03.39.31:557][398]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.30-03.39.31:557][398]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6784
+[2017.09.30-03.39.33:931][398]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.30-03.39.33:932][398]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.30-03.39.33:932][398]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.30-03.39.33:932][398]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.30-03.39.33:932][398]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.30-03.39.33:932][398]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.30-03.39.34:105][398]LogEditorBuildUtils: Build time 0:03
+[2017.09.30-03.39.36:047][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.30-03.39.36:161][476]LogSavePackage: Save=90.35ms
+[2017.09.30-03.39.36:161][476]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap2E7356914896F7FCDDEC568269A20B13.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
+[2017.09.30-03.39.36:164][476]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
+[2017.09.30-03.39.36:196][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.30-03.39.36:357][476]LogSavePackage: Save=157.18ms
+[2017.09.30-03.39.36:357][476]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltDataA5FA89B746D6BE26A8F2CBA337D939C8.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2017.09.30-03.39.36:358][476]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2017.09.30-03.39.40:691][707]Job is a success!
+[2017.09.30-03.39.41:305][708]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.09.30-03.39.41:305][708]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.09.30-03.39.41:305][708]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.09.30-03.39.41:305][708]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.09.30-03.39.41:306][708]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.09.30-03.39.41:306][708]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.09.30-03.39.41:464][708]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 32X32)
+[2017.09.30-03.39.41:464][708]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X512)
+[2017.09.30-03.39.41:493][708]Lightmass on LAPTOP-QBTPNRJC: 6.62 sec total, 149 ms importing, 34 ms setup, 614 ms photons, 5.81 sec processing, 0 ms extra exporting [27/27 mappings]. Threads: 40.5 sec total, 28.7 sec processing.
+[2017.09.30-03.39.41:505][708]LogStaticLightingSystem: Illumination: 10.5 sec (477 ms encoding lightmaps, 153 ms encoding shadowmaps)
+[2017.09.30-03.39.41:505][708]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.30-03.39.41:505][708]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.30-03.39.41:937][708]DumpUnbuiltLightIteractions
+[2017.09.30-03.39.41:937][708]Lights with unbuilt interactions: 0
+[2017.09.30-03.39.41:937][708]
+[2017.09.30-03.39.41:937][708]Primitives with unbuilt interactions: 0
+[2017.09.30-03.39.41:944][709]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.30-03.39.41:944][709]MapCheck: New page: NewMap - Sep 29, 2017, 7:39:41 PM
+[2017.09.30-03.39.42:177][709]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 233.297ms to complete.
+[2017.09.30-03.39.43:854][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.09.30-03.40.08:144][254]Cmd: TRANSACTION UNDO
+[2017.09.30-03.40.08:144][254]LogEditorTransaction: Undo Scale Actors
+[2017.09.30-03.40.18:322][861]Cmd: SELECT NONE
+[2017.09.30-03.40.25:941][316]MapCheck: New page: Map Check
+[2017.09.30-03.40.25:963][316]LightingResults: New page: Lighting Build - Sep 29, 2017, 7:40:25 PM
+[2017.09.30-03.40.25:973][316]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.30-03.40.25:977][316]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.30-03.40.25:977][316]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.30-03.40.25:978][316]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.30-03.40.25:978][316]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6784
+[2017.09.30-03.40.30:570][316]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.30-03.40.30:571][316]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.30-03.40.30:571][316]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.30-03.40.30:571][316]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.30-03.40.30:571][316]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.30-03.40.30:571][316]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.30-03.40.30:701][316]LogEditorBuildUtils: Build time 0:04
+[2017.09.30-03.40.36:949][648]Job is a success!
+[2017.09.30-03.40.37:531][649]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.09.30-03.40.37:531][649]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.09.30-03.40.37:531][649]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.09.30-03.40.37:531][649]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.09.30-03.40.37:531][649]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.09.30-03.40.37:532][649]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.09.30-03.40.37:685][649]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 32X32)
+[2017.09.30-03.40.37:685][649]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X512)
+[2017.09.30-03.40.37:703][649]Lightmass on LAPTOP-QBTPNRJC: 6.39 sec total, 129 ms importing, 33 ms setup, 559 ms photons, 5.65 sec processing, 0 ms extra exporting [28/28 mappings]. Threads: 39.4 sec total, 27.6 sec processing.
+[2017.09.30-03.40.37:710][649]LogStaticLightingSystem: Illumination: 11.7 sec (464 ms encoding lightmaps, 150 ms encoding shadowmaps)
+[2017.09.30-03.40.37:711][649]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.30-03.40.37:711][649]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.30-03.40.38:572][649]DumpUnbuiltLightIteractions
+[2017.09.30-03.40.38:572][649]Lights with unbuilt interactions: 0
+[2017.09.30-03.40.38:572][649]
+[2017.09.30-03.40.38:572][649]Primitives with unbuilt interactions: 0
+[2017.09.30-03.40.38:578][650]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.30-03.40.38:578][650]MapCheck: New page: NewMap - Sep 29, 2017, 7:40:38 PM
+[2017.09.30-03.40.38:779][650]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 201.5ms to complete.
+[2017.09.30-03.40.41:214][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame2)
+[2017.09.30-03.40.41:912][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2017.09.30-03.41.19:563][ 77]MapCheck: New page: Map Check
+[2017.09.30-03.41.19:586][ 77]LightingResults: New page: Lighting Build - Sep 29, 2017, 7:41:19 PM
+[2017.09.30-03.41.19:595][ 77]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.30-03.41.19:599][ 77]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.30-03.41.19:599][ 77]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.30-03.41.19:601][ 77]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.30-03.41.19:601][ 77]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6784
+[2017.09.30-03.41.24:189][ 77]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.30-03.41.24:190][ 77]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.30-03.41.24:190][ 77]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.30-03.41.24:190][ 77]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.30-03.41.24:190][ 77]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.30-03.41.24:190][ 77]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.30-03.41.24:328][ 77]LogEditorBuildUtils: Build time 0:04
+[2017.09.30-03.41.26:666][182]Cmd: SELECT NONE
+[2017.09.30-03.41.30:625][395]Job is a success!
+[2017.09.30-03.41.31:185][397]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.09.30-03.41.31:185][397]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.09.30-03.41.31:185][397]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.09.30-03.41.31:185][397]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.09.30-03.41.31:185][397]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.09.30-03.41.31:186][397]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.09.30-03.41.31:333][397]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 32X32)
+[2017.09.30-03.41.31:334][397]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X512)
+[2017.09.30-03.41.31:349][397]Lightmass on LAPTOP-QBTPNRJC: 6.41 sec total, 131 ms importing, 28 ms setup, 566 ms photons, 5.66 sec processing, 0 ms extra exporting [28/28 mappings]. Threads: 39.5 sec total, 28.0 sec processing.
+[2017.09.30-03.41.31:358][397]LogStaticLightingSystem: Illumination: 11.7 sec (457 ms encoding lightmaps, 144 ms encoding shadowmaps)
+[2017.09.30-03.41.31:358][397]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.30-03.41.31:358][397]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.30-03.41.32:193][397]DumpUnbuiltLightIteractions
+[2017.09.30-03.41.32:193][397]Lights with unbuilt interactions: 0
+[2017.09.30-03.41.32:194][397]
+[2017.09.30-03.41.32:194][397]Primitives with unbuilt interactions: 0
+[2017.09.30-03.41.32:200][398]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.30-03.41.32:200][398]MapCheck: New page: NewMap - Sep 29, 2017, 7:41:32 PM
+[2017.09.30-03.41.32:425][398]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 224.873ms to complete.
+[2017.09.30-03.41.47:412][292]Cmd: TRANSACTION UNDO
+[2017.09.30-03.41.47:412][292]LogEditorTransaction: Undo Create Actors
+[2017.09.30-03.42.00:386][ 66]Cmd: TRANSACTION UNDO
+[2017.09.30-03.42.00:386][ 66]LogEditorTransaction: Undo Create Actors
+[2017.09.30-03.42.10:354][656]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.09.30-03.42.11:835][742]Cmd: EDIT CUT
+[2017.09.30-03.42.11:838][742]LogEditorActor: Deleted Actor: SpotLight
+[2017.09.30-03.42.11:848][742]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.09.30-03.42.14:557][905]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.09.30-03.42.14:628][906]LogEditorViewport: Clicking on Component (LMB): PointLightComponent (LightComponent0)
+[2017.09.30-03.42.49:248][968]Cmd: SELECT NONE
+[2017.09.30-03.42.51:067][ 77]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.09.30-03.42.58:509][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-03.43.01:703][702]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.09.30-03.43.10:462][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-03.43.11:165][246]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2017.09.30-03.43.12:379][315]Cmd: EDIT CUT
+[2017.09.30-03.43.12:382][315]LogEditorActor: Deleted Actor: SpotLight
+[2017.09.30-03.43.12:393][315]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.09.30-03.43.13:318][371]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.09.30-03.43.34:276][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2017.09.30-03.43.34:719][628]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.09.30-03.43.44:926][224]Cmd: TRANSACTION UNDO
+[2017.09.30-03.43.44:926][224]LogEditorTransaction: Undo Move Actors
+[2017.09.30-03.43.45:280][240]Cmd: TRANSACTION UNDO
+[2017.09.30-03.43.45:280][240]LogEditorTransaction: Undo Move Actors
+[2017.09.30-03.43.45:659][262]Cmd: TRANSACTION UNDO
+[2017.09.30-03.43.45:659][262]LogEditorTransaction: Undo Move Actors
+[2017.09.30-03.43.46:025][284]Cmd: TRANSACTION UNDO
+[2017.09.30-03.43.46:026][284]LogEditorTransaction: Undo Move Actors
+[2017.09.30-03.43.46:325][302]Cmd: TRANSACTION UNDO
+[2017.09.30-03.43.46:325][302]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-03.43.50:740][561]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.09.30-03.43.51:598][609]Cmd: EDIT CUT
+[2017.09.30-03.43.51:601][609]LogEditorActor: Deleted Actor: PointLight
+[2017.09.30-03.43.51:612][609]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.09.30-03.43.54:419][778]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.09.30-03.43.59:871][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-03.44.01:851][208]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.09.30-03.44.14:274][943]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-03.44.14:293][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-03.44.14:293][943]PIE: New page: PIE session: NewMap (Sep 29, 2017, 7:44:14 PM)
+[2017.09.30-03.44.14:294][943]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-03.44.14:298][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004430s)
+[2017.09.30-03.44.14:299][943]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-03.44.14:300][943]LogPlayLevel: PIE: World Init took: (0.001538s)
+[2017.09.30-03.44.14:300][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006620s)
+[2017.09.30-03.44.14:314][943]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-03.44.14:325][943]LogInit: FAudioDevice initialized.
+[2017.09.30-03.44.14:359][943]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.30-03.44.14:362][943]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.29-23.44.14
+[2017.09.30-03.44.14:362][943]LogWorld: Bringing up level for play took: 0.002270
+[2017.09.30-03.44.14:364][943]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-03.44.14:364][943]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-03.44.14:364][943]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.386
+[2017.09.30-03.44.34:340][129]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.09.30-03.44.52:985][223]Cmd: SELECT NONE
+[2017.09.30-03.44.54:226][296]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-03.44.54:244][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-03.44.54:245][296]PIE: New page: PIE session: NewMap (Sep 29, 2017, 7:44:54 PM)
+[2017.09.30-03.44.54:245][296]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-03.44.54:249][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004280s)
+[2017.09.30-03.44.54:250][296]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-03.44.54:251][296]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2017.09.30-03.44.54:251][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006291s)
+[2017.09.30-03.44.54:265][296]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-03.44.54:275][296]LogInit: FAudioDevice initialized.
+[2017.09.30-03.44.54:308][296]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.30-03.44.54:311][296]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.29-23.44.54
+[2017.09.30-03.44.54:312][296]LogWorld: Bringing up level for play took: 0.002164
+[2017.09.30-03.44.54:313][296]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-03.44.54:313][296]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-03.44.54:313][296]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.335
+[2017.09.30-03.45.11:146][300]MapCheck: New page: Map Check
+[2017.09.30-03.45.11:164][300]LightingResults: New page: Lighting Build - Sep 29, 2017, 7:45:11 PM
+[2017.09.30-03.45.11:175][300]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.30-03.45.11:180][300]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.30-03.45.11:180][300]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.30-03.45.11:181][300]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.30-03.45.11:182][300]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6784
+[2017.09.30-03.45.15:822][300]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.30-03.45.15:822][300]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.30-03.45.15:822][300]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.30-03.45.15:822][300]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.30-03.45.15:822][300]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.30-03.45.15:823][300]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.30-03.45.15:958][300]LogEditorBuildUtils: Build time 0:04
+[2017.09.30-03.45.24:362][757]Job is a success!
+[2017.09.30-03.45.25:018][759]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.09.30-03.45.25:018][759]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.09.30-03.45.25:018][759]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.09.30-03.45.25:019][759]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.09.30-03.45.25:019][759]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.09.30-03.45.25:019][759]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.09.30-03.45.25:153][759]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 32X32)
+[2017.09.30-03.45.25:154][759]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X512)
+[2017.09.30-03.45.25:169][759]Lightmass on LAPTOP-QBTPNRJC: 8.63 sec total, 132 ms importing, 35 ms setup, 654 ms photons, 7.79 sec processing, 0 ms extra exporting [28/28 mappings]. Threads: 54.4 sec total, 36.6 sec processing.
+[2017.09.30-03.45.25:178][759]LogStaticLightingSystem: Illumination: 13.9 sec (466 ms encoding lightmaps, 131 ms encoding shadowmaps)
+[2017.09.30-03.45.25:178][759]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.30-03.45.25:179][759]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.30-03.45.25:825][759]DumpUnbuiltLightIteractions
+[2017.09.30-03.45.25:825][759]Lights with unbuilt interactions: 0
+[2017.09.30-03.45.25:825][759]
+[2017.09.30-03.45.25:825][759]Primitives with unbuilt interactions: 0
+[2017.09.30-03.45.25:831][760]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.30-03.45.25:831][760]MapCheck: New page: NewMap - Sep 29, 2017, 7:45:25 PM
+[2017.09.30-03.45.26:058][760]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 226.745ms to complete.
+[2017.09.30-03.47.30:093][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.30-03.48.17:585][456]LogHotReload: New module detected: UE4Editor-EscapeRoom-8121.dll
+[2017.09.30-03.48.18:262][459]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.30-03.48.18:366][459]LogClass: Could not find existing class OpenDoor in package /Script/EscapeRoom for HotReload, assuming new class
+[2017.09.30-03.48.18:370][459]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2017.09.30-03.48.18:412][459]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0013 seconds. Added 4 classes and 2 folders.
+[2017.09.30-03.48.18:413][459]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.30-03.48.18:481][459]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2392 classes and 506 folders.
+[2017.09.30-03.48.18:491][459]Display: HotReload took  0.2s.
+[2017.09.30-03.48.21:706][540]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-03.48.21:725][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-03.48.21:725][540]PIE: New page: PIE session: NewMap (Sep 29, 2017, 7:48:21 PM)
+[2017.09.30-03.48.21:726][540]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-03.48.21:731][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005577s)
+[2017.09.30-03.48.21:732][540]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-03.48.21:733][540]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2017.09.30-03.48.21:733][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007229s)
+[2017.09.30-03.48.21:746][540]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-03.48.21:757][540]LogInit: FAudioDevice initialized.
+[2017.09.30-03.48.21:793][540]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.30-03.48.21:796][540]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.29-23.48.21
+[2017.09.30-03.48.21:796][540]LogWorld: Bringing up level for play took: 0.001924
+[2017.09.30-03.48.21:797][540]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-03.48.21:797][540]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-03.48.21:798][540]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.18
+[2017.09.30-03.48.25:857][765]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.30-03.48.26:576][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.30-03.48.37:267][442]Cmd: SELECT NONE
+[2017.09.30-03.50.45:280][119]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.30-03.50.48:529][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.30-03.50.48:624][309]LogSavePackage: Save=73.96ms
+[2017.09.30-03.50.48:624][309]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap7AB8D693466918811414E5BF78EABADD.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
+[2017.09.30-03.50.48:626][309]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
+[2017.09.30-03.50.48:651][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.30-03.50.48:792][309]LogSavePackage: Save=131.19ms
+[2017.09.30-03.50.48:792][309]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltDataCDDB829941DFFB06EA3B02AF0F1AA97B.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2017.09.30-03.50.48:794][309]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2017.09.30-03.50.51:587][468]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-03.50.51:605][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-03.50.51:605][468]PIE: New page: PIE session: NewMap (Sep 29, 2017, 7:50:51 PM)
+[2017.09.30-03.50.51:605][468]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-03.50.51:609][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003226s)
+[2017.09.30-03.50.51:610][468]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-03.50.51:610][468]LogPlayLevel: PIE: World Init took: (0.001347s)
+[2017.09.30-03.50.51:611][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005251s)
+[2017.09.30-03.50.51:624][468]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-03.50.51:633][468]LogInit: FAudioDevice initialized.
+[2017.09.30-03.50.51:670][468]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.30-03.50.51:674][468]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.29-23.50.51
+[2017.09.30-03.50.51:674][468]LogWorld: Bringing up level for play took: 0.001999
+[2017.09.30-03.50.51:676][468]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-03.50.51:676][468]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-03.50.51:676][468]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.302
+[2017.09.30-03.50.55:277][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2017.09.30-03.51.03:995][195]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-03.51.04:014][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-03.51.04:014][195]PIE: New page: PIE session: NewMap (Sep 29, 2017, 7:51:04 PM)
+[2017.09.30-03.51.04:015][195]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-03.51.04:019][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004574s)
+[2017.09.30-03.51.04:020][195]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-03.51.04:021][195]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2017.09.30-03.51.04:021][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006443s)
+[2017.09.30-03.51.04:035][195]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-03.51.04:044][195]LogInit: FAudioDevice initialized.
+[2017.09.30-03.51.04:081][195]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.30-03.51.04:085][195]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.29-23.51.04
+[2017.09.30-03.51.04:085][195]LogWorld: Bringing up level for play took: 0.003183
+[2017.09.30-03.51.04:086][195]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-03.51.04:086][195]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-03.51.04:086][195]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.108
+[2017.09.30-03.51.04:738][195]LogWindows: Error: === Critical error: ===
+[2017.09.30-03.51.04:738][195]LogWindows: Error: 
+[2017.09.30-03.51.04:738][195]LogWindows: Error: Fatal error!
+[2017.09.30-03.51.04:738][195]LogWindows: Error: 
+[2017.09.30-03.51.04:738][195]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000340
+[2017.09.30-03.51.04:738][195]LogWindows: Error: 
+[2017.09.30-03.51.04:738][195]LogWindows: Error: UE4Editor-Engine.dll!0x00000000A12E0775
+[2017.09.30-03.51.04:738][195]LogWindows: Error: UE4Editor-EscapeRoom-8121.dll!UOpenDoor::TickComponent() [d:\github\escaperoom\escaperoom\source\escaperoom\opendoor.cpp:48]
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Engine.dll!0x00000000A16A92E4
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Engine.dll!0x00000000A16DE9B5
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Engine.dll!0x00000000A22EAB9B
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Engine.dll!0x00000000A22F163B
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Core.dll!0x00000000A47624F5
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Core.dll!0x00000000A47627F0
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Engine.dll!0x00000000A230DAC3
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Engine.dll!0x00000000A23132B2
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Engine.dll!0x00000000A1C121D4
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-Engine.dll!0x00000000A1C1B356
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-UnrealEd.dll!0x000000009F7AC942
+[2017.09.30-03.51.04:739][195]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000A003CEE6
+[2017.09.30-03.51.04:740][195]LogWindows: Error: UE4Editor.exe!0x000000004537534A
+[2017.09.30-03.51.04:740][195]LogWindows: Error: UE4Editor.exe!0x0000000045383970
+[2017.09.30-03.51.04:740][195]LogWindows: Error: UE4Editor.exe!0x00000000453839EA
+[2017.09.30-03.51.04:740][195]LogWindows: Error: UE4Editor.exe!0x00000000453902D9
+[2017.09.30-03.51.04:740][195]LogWindows: Error: UE4Editor.exe!0x0000000045391C47
+[2017.09.30-03.51.04:740][195]LogWindows: Error: KERNEL32.DLL!0x0000000000EA2774
+[2017.09.30-03.51.04:740][195]LogWindows: Error: ntdll.dll!0x00000000036A0D51
+[2017.09.30-03.51.04:740][195]LogWindows: Error: ntdll.dll!0x00000000036A0D51
+[2017.09.30-03.51.04:740][195]LogWindows: Error: 
+[2017.09.30-03.51.04:757][195]LogExit: Executing StaticShutdownAfterError
+[2017.09.30-03.51.04:760][195]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.09.30-03.51.04:760][195]Log file closed, 09/29/17 23:51:04
