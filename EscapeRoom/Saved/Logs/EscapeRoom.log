@@ -563,3 +563,1276 @@ LogInit: Object subsystem initialized
 [2017.09.30-04.40.07:650][263]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
 [2017.09.30-04.40.07:651][263]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
 [2017.09.30-04.40.07:651][263]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.327
+[2017.09.30-04.46.55:187][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-04.46.55:206][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-04.46.55:207][ 19]PIE: New page: PIE session: NewMap (Sep 29, 2017, 8:46:55 PM)
+[2017.09.30-04.46.55:207][ 19]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-04.46.55:214][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006682s)
+[2017.09.30-04.46.55:216][ 19]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-04.46.55:217][ 19]LogPlayLevel: PIE: World Init took: (0.002545s)
+[2017.09.30-04.46.55:218][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.010516s)
+[2017.09.30-04.46.55:232][ 19]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-04.46.55:244][ 19]LogInit: FAudioDevice initialized.
+[2017.09.30-04.46.55:277][ 19]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.30-04.46.55:280][ 19]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-00.46.55
+[2017.09.30-04.46.55:281][ 19]LogWorld: Bringing up level for play took: 0.003087
+[2017.09.30-04.46.55:283][ 19]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-04.46.55:283][ 19]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-04.46.55:283][ 19]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.695
+[2017.09.30-04.46.58:145][174]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-04.46.58:162][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-04.46.58:162][174]PIE: New page: PIE session: NewMap (Sep 29, 2017, 8:46:58 PM)
+[2017.09.30-04.46.58:162][174]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-04.46.58:167][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004907s)
+[2017.09.30-04.46.58:168][174]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-04.46.58:168][174]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2017.09.30-04.46.58:169][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006591s)
+[2017.09.30-04.46.58:184][174]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-04.46.58:197][174]LogInit: FAudioDevice initialized.
+[2017.09.30-04.46.58:232][174]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.30-04.46.58:236][174]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-00.46.58
+[2017.09.30-04.46.58:236][174]LogWorld: Bringing up level for play took: 0.002828
+[2017.09.30-04.46.58:237][174]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-04.46.58:237][174]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-04.46.58:238][174]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.26
+[2017.09.30-04.47.02:378][411]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2017.09.30-04.47.17:733][257]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeRoom
+[2017.09.30-04.47.17:734][257]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.30-04.47.17:734][257]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.09.30-04.47.17:734][257]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.30-04.47.17:738][257]LogTemp: BranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.30-04.47.17:752][257]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\dougl\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.30-04.47.31:750][ 11]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2017.09.30-04.47.50:131][ 57]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 113 classes and 0 folders.
+[2017.09.30-04.48.03:727][786]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.30-04.48.17:067][578]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-04.48.17:098][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-04.48.17:098][578]PIE: New page: PIE session: NewMap (Sep 29, 2017, 8:48:17 PM)
+[2017.09.30-04.48.17:098][578]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-04.48.17:103][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004241s)
+[2017.09.30-04.48.17:104][578]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-04.48.17:104][578]LogPlayLevel: PIE: World Init took: (0.001238s)
+[2017.09.30-04.48.17:104][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006260s)
+[2017.09.30-04.48.17:125][578]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-04.48.17:135][578]LogInit: FAudioDevice initialized.
+[2017.09.30-04.48.17:168][578]LogLoad: Game class is 'EscapeRoomGameModeBase'
+[2017.09.30-04.48.17:173][578]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-00.48.17
+[2017.09.30-04.48.17:179][578]LogWorld: Bringing up level for play took: 0.008992
+[2017.09.30-04.48.17:181][578]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-04.48.17:182][578]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-04.48.17:182][578]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.796
+[2017.09.30-04.48.29:538][303]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-04.49.24:867][493]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.30-04.49.26:860][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.30-04.49.26:963][494]LogSavePackage: Save=95.41ms
+[2017.09.30-04.49.26:963][494]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto181B0980D434B76F3975068AB09973DD5.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2017.09.30-04.49.26:964][494]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2017.09.30-04.49.26:968][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.128
+[2017.09.30-04.49.26:969][494]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.128
+[2017.09.30-04.49.26:970][494]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DefaultPawn_BP] ([1] browsable assets)...
+[2017.09.30-04.49.27:009][494]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DefaultPawn_BP.DefaultPawn_BP]
+[2017.09.30-04.49.27:009][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/DefaultPawn_BP]
+[2017.09.30-04.49.27:009][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/DefaultPawn_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.30-04.49.27:037][494]LogSavePackage: Save=26.44ms
+[2017.09.30-04.49.27:038][494]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/DefaultPawn_BP_Auto1E05235BC4EA8D52F12356790EA95F80A.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/DefaultPawn_BP_Auto1.uasset'
+[2017.09.30-04.49.27:039][494]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/DefaultPawn_BP_Auto1.uasset
+[2017.09.30-04.49.27:039][494]LogFileHelpers: Auto-saving content packages took 0.069
+[2017.09.30-04.50.06:341][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/DefaultPawn_BP.uasset" SILENT=true
+[2017.09.30-04.50.06:754][837]LogSavePackage: Save=33.42ms
+[2017.09.30-04.50.06:754][837]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/DefaultPawn_BP902B2E8444C8B1F3E54CF28741C0DE4D.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/DefaultPawn_BP.uasset'
+[2017.09.30-04.50.06:759][837]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/DefaultPawn_BP.uasset
+[2017.09.30-04.50.36:869][635]LogEditorViewport: Clicking on Actor (context menu): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-04.51.48:972][933]BlueprintLog: New page: Compile DefaultPawn_BP
+[2017.09.30-04.51.59:388][505]Cmd: SELECT NONE
+[2017.09.30-04.52.00:515][572]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP2)
+[2017.09.30-04.52.01:440][624]Cmd: EDIT CUT
+[2017.09.30-04.52.01:446][624]LogEditorActor: Deleted Actor: DefaultPawn_BP_C
+[2017.09.30-04.52.01:463][624]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.09.30-04.52.04:710][818]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.30-04.52.31:012][393]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-04.52.59:015][851]BlueprintLog: New page: Compile DefaultPawn_BP
+[2017.09.30-04.53.01:423][953]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-04.53.08:286][360]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-04.53.09:842][450]Cmd: EDIT CUT
+[2017.09.30-04.53.09:846][450]LogEditorActor: Deleted Actor: DefaultPawn_BP_C
+[2017.09.30-04.53.09:862][450]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.09.30-04.53.13:365][583]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP2)
+[2017.09.30-04.53.13:803][596]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP2)
+[2017.09.30-04.53.19:987][962]Cmd: EDIT CUT
+[2017.09.30-04.53.19:991][962]LogEditorActor: Deleted Actor: DefaultPawn_BP_C
+[2017.09.30-04.53.20:006][962]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.09.30-04.53.46:830][529]Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom Win64 Development -editorrecompile "D:/GitHub/EscapeRoom/EscapeRoom/EscapeRoom.uproject" -invalidatemakefilesonly
+[2017.09.30-04.53.47:134][529]Invalidating makefiles only in this run.
+[2017.09.30-04.53.47:449][529]Candidate modules for hot reload:
+[2017.09.30-04.53.47:449][529]  EscapeRoom
+[2017.09.30-04.53.47:450][529]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix EscapeRoom 1734 Win64 Development -editorrecompile -canskiplink "D:/GitHub/EscapeRoom/EscapeRoom/EscapeRoom.uproject" ]
+[2017.09.30-04.53.48:260][529]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.30-04.54.05:671][529]CompilerResultsLog: New page: Compilation - Sep 29, 2017, 8:54:05 PM
+[2017.09.30-04.54.05:671][529]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.30-04.54.05:671][529]CompilerResultsLog: Parsing headers for EscapeRoomEditor
+[2017.09.30-04.54.05:671][529]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\EscapeRoom\EscapeRoom\EscapeRoom.uproject" "D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.30-04.54.05:672][529]CompilerResultsLog: Reflection code generated for EscapeRoomEditor in 9.6320177 seconds
+[2017.09.30-04.54.05:672][529]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.09.30-04.54.05:672][529]CompilerResultsLog: Grabber.gen.cpp
+[2017.09.30-04.54.05:672][529]CompilerResultsLog: Grabber.cpp
+[2017.09.30-04.54.05:672][529]CompilerResultsLog: EscapeRoom.init.gen.cpp
+[2017.09.30-04.54.05:672][529]CompilerResultsLog: [4/5] Link UE4Editor-EscapeRoom-1734.dll
+[2017.09.30-04.54.05:672][529]CompilerResultsLog: [5/5] Link UE4Editor-EscapeRoom-1734.lib
+[2017.09.30-04.54.05:673][529]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1734.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1734.exp
+[2017.09.30-04.54.05:673][529]CompilerResultsLog:    Creating library D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1734.suppressed.lib and object D:\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1734.suppressed.exp
+[2017.09.30-04.54.05:673][529]CompilerResultsLog: Total build time: 17.99 seconds (Local executor: 2.57 seconds)
+[2017.09.30-04.54.05:674][529]LogMainFrame: MainFrame: Module compiling took 18.234 seconds
+[2017.09.30-04.54.05:758][529]LogClass: Could not find existing class Grabber in package /Script/EscapeRoom for HotReload, assuming new class
+[2017.09.30-04.54.05:766][529]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 5 classes and 2 folders.
+[2017.09.30-04.54.05:769][529]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.30-04.54.06:123][529]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2393 classes and 506 folders.
+[2017.09.30-04.54.06:123][529]Display: HotReload took 18.9s.
+[2017.09.30-04.54.06:125][529]Warning: HotReload operation took 18.9s.
+[2017.09.30-04.54.06:263][529]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/Grabber.h'
+[2017.09.30-04.54.06:268][529]LogVSAccessor: Warning: Couldn't open file 'D:/GitHub/EscapeRoom/EscapeRoom/Source/EscapeRoom/Grabber.cpp'.
+[2017.09.30-04.54.06:287][529]LogHotReload: New module detected: UE4Editor-EscapeRoom-1734.dll
+[2017.09.30-04.54.06:312][530]LogHotReload: Starting Hot-Reload from IDE
+[2017.09.30-04.54.06:470][530]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 5 classes and 2 folders.
+[2017.09.30-04.54.06:472][530]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.30-04.54.06:741][530]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2393 classes and 506 folders.
+[2017.09.30-04.54.06:753][530]Display: HotReload took  0.4s.
+[2017.09.30-04.54.46:846][212]BlueprintLog: New page: Compile DefaultPawn_BP
+[2017.09.30-04.54.59:636][934]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-04.55.02:405][ 94]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-04.55.17:060][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.30-04.55.17:184][963]LogSavePackage: Save=95.33ms
+[2017.09.30-04.55.17:185][963]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMapB3156E574F513643D00D98A3E980002A.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
+[2017.09.30-04.55.17:191][963]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
+[2017.09.30-04.55.17:220][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.30-04.55.17:384][963]LogSavePackage: Save=155.76ms
+[2017.09.30-04.55.17:385][963]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltDataDD3CB0584F5BCC64FD0C059F6C70EE1A.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2017.09.30-04.55.17:386][963]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2017.09.30-04.55.34:423][921]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeRoom
+[2017.09.30-04.55.34:423][921]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.30-04.55.34:424][921]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.09.30-04.55.34:424][921]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.30-04.55.34:427][921]LogTemp: BranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.30-04.55.34:440][921]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\dougl\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.30-04.57.13:586][534]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-04.57.15:892][670]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-04.57.17:356][756]Cmd: EDIT CUT
+[2017.09.30-04.57.17:361][756]LogEditorActor: Deleted Actor: DefaultPawn_BP_C
+[2017.09.30-04.57.17:383][756]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.09.30-04.57.23:953][ 96]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeRoom
+[2017.09.30-04.57.23:953][ 96]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.30-04.57.23:953][ 96]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.09.30-04.57.23:954][ 96]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.30-04.57.23:954][ 96]LogTemp: BranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.30-04.57.23:954][ 96]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\dougl\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.30-04.57.29:772][438]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.30-04.59.45:729][453]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeRoom
+[2017.09.30-04.59.45:730][453]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.30-04.59.45:730][453]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.09.30-04.59.45:730][453]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.30-04.59.45:730][453]LogTemp: BranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = LAPTOP-QBTPNRJC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.30-04.59.45:730][453]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\dougl\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.30-04.59.49:782][683]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.30-05.00.10:372][904]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-05.00.10:397][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-05.00.10:397][904]PIE: New page: PIE session: NewMap (Sep 29, 2017, 9:00:10 PM)
+[2017.09.30-05.00.10:397][904]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-05.00.10:402][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004915s)
+[2017.09.30-05.00.10:403][904]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-05.00.10:403][904]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2017.09.30-05.00.10:404][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006520s)
+[2017.09.30-05.00.10:429][904]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-05.00.10:440][904]LogInit: FAudioDevice initialized.
+[2017.09.30-05.00.10:473][904]LogLoad: Game class is 'MyEscapeRoomGameModeBP_C'
+[2017.09.30-05.00.10:477][904]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-01.00.10
+[2017.09.30-05.00.10:477][904]LogWorld: Bringing up level for play took: 0.002689
+[2017.09.30-05.00.10:478][904]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-05.00.10:479][904]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-05.00.10:479][904]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.501
+[2017.09.30-05.00.14:378][131]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-05.00.14:397][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-05.00.14:397][131]PIE: New page: PIE session: NewMap (Sep 29, 2017, 9:00:14 PM)
+[2017.09.30-05.00.14:397][131]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-05.00.14:402][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004810s)
+[2017.09.30-05.00.14:403][131]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-05.00.14:403][131]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.09.30-05.00.14:403][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006303s)
+[2017.09.30-05.00.14:427][131]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-05.00.14:437][131]LogInit: FAudioDevice initialized.
+[2017.09.30-05.00.14:469][131]LogLoad: Game class is 'MyEscapeRoomGameModeBP_C'
+[2017.09.30-05.00.14:473][131]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-01.00.14
+[2017.09.30-05.00.14:473][131]LogWorld: Bringing up level for play took: 0.002634
+[2017.09.30-05.00.14:475][131]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-05.00.14:475][131]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-05.00.14:475][131]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.497
+[2017.09.30-05.00.19:419][413]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-05.07.44:319][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.09.30-05.07.46:744][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.09.30-05.07.58:417][769]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-05.07.58:435][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-05.07.58:436][769]PIE: New page: PIE session: NewMap (Sep 29, 2017, 9:07:58 PM)
+[2017.09.30-05.07.58:436][769]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-05.07.58:441][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005378s)
+[2017.09.30-05.07.58:442][769]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-05.07.58:443][769]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2017.09.30-05.07.58:443][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007204s)
+[2017.09.30-05.07.58:466][769]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-05.07.58:477][769]LogInit: FAudioDevice initialized.
+[2017.09.30-05.07.58:510][769]LogLoad: Game class is 'MyEscapeRoomGameModeBP_C'
+[2017.09.30-05.07.58:513][769]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-01.07.58
+[2017.09.30-05.07.58:514][769]LogWorld: Bringing up level for play took: 0.002979
+[2017.09.30-05.07.58:515][769]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-05.07.58:516][769]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-05.07.58:516][769]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.538
+[2017.09.30-05.14.09:278][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.30-05.14.09:372][803]LogSavePackage: Save=84.64ms
+[2017.09.30-05.14.09:372][803]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto21808256249B6919FBEA1FBA26EAEBB64.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2017.09.30-05.14.09:373][803]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2017.09.30-05.14.09:375][803]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.117
+[2017.09.30-05.14.09:376][803]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.117
+[2017.09.30-05.14.09:377][803]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyEscapeRoomGameModeBP] ([1] browsable assets)...
+[2017.09.30-05.14.09:378][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyEscapeRoomGameModeBP]
+[2017.09.30-05.14.09:378][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyEscapeRoomGameModeBP" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/MyEscapeRoomGameModeBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.30-05.14.09:393][803]LogSavePackage: Save=13.24ms
+[2017.09.30-05.14.09:393][803]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/MyEscapeRoomGameModeBP_Auto22A709B5F4A2A7C1CEAE145AA9BE6DF94.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/MyEscapeRoomGameModeBP_Auto2.uasset'
+[2017.09.30-05.14.09:394][803]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/MyEscapeRoomGameModeBP_Auto2.uasset
+[2017.09.30-05.14.09:395][803]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DefaultPawn_BP] ([1] browsable assets)...
+[2017.09.30-05.14.09:444][803]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DefaultPawn_BP.DefaultPawn_BP]
+[2017.09.30-05.14.09:444][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/DefaultPawn_BP]
+[2017.09.30-05.14.09:444][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/DefaultPawn_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.30-05.14.09:479][803]LogSavePackage: Save=26.74ms
+[2017.09.30-05.14.09:479][803]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/DefaultPawn_BP_Auto23DAED17341A124A5E1221AAFFA016BFD.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/DefaultPawn_BP_Auto2.uasset'
+[2017.09.30-05.14.09:480][803]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/DefaultPawn_BP_Auto2.uasset
+[2017.09.30-05.14.09:480][803]LogFileHelpers: Auto-saving content packages took 0.104
+[2017.09.30-05.39.12:270][313]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-05.39.12:289][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-05.39.12:289][313]PIE: New page: PIE session: NewMap (Sep 29, 2017, 9:39:12 PM)
+[2017.09.30-05.39.12:289][313]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-05.39.12:296][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006128s)
+[2017.09.30-05.39.12:297][313]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-05.39.12:298][313]LogPlayLevel: PIE: World Init took: (0.001833s)
+[2017.09.30-05.39.12:299][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.009102s)
+[2017.09.30-05.39.12:322][313]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-05.39.12:333][313]LogInit: FAudioDevice initialized.
+[2017.09.30-05.39.12:368][313]LogLoad: Game class is 'MyEscapeRoomGameModeBP_C'
+[2017.09.30-05.39.12:373][313]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-01.39.12
+[2017.09.30-05.39.12:373][313]LogWorld: Bringing up level for play took: 0.003330
+[2017.09.30-05.39.12:374][313]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-05.39.12:375][313]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-05.39.12:375][313]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.397
+[2017.09.30-05.40.57:627][596]Cmd: SELECT NONE
+[2017.09.30-05.41.45:018][327]Cmd: TRANSACTION UNDO
+[2017.09.30-05.41.45:018][327]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.41.45:262][340]Cmd: TRANSACTION UNDO
+[2017.09.30-05.41.45:262][340]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.41.45:463][351]Cmd: TRANSACTION UNDO
+[2017.09.30-05.41.45:463][351]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.41.45:710][365]Cmd: TRANSACTION UNDO
+[2017.09.30-05.41.45:710][365]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.41.46:060][386]Cmd: TRANSACTION UNDO
+[2017.09.30-05.41.46:060][386]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.42.07:150][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2017.09.30-05.42.07:207][475]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.09.30-05.42.10:702][660]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0026 seconds. Added 1 classes and 0 folders.
+[2017.09.30-05.42.10:706][660]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.10:899][660]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.10:927][660]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.10:989][660]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.42.13:419][777]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.09.30-05.42.13:419][777]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.30-05.42.13:419][777]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.30-05.42.17:319][  6]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.17:340][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.42.17:921][ 36]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.17:945][ 36]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.42.19:112][101]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.19:143][101]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.42.20:037][153]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.20:062][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.42.21:387][230]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.09.30-05.42.21:388][230]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.30-05.42.21:388][230]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.30-05.42.29:863][629]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.29:883][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.42.31:129][696]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.09.30-05.42.31:129][696]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.30-05.42.31:129][696]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.30-05.42.33:211][816]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.33:231][816]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.42.33:341][821]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.33:373][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.42.35:660][894]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.09.30-05.42.35:660][894]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.30-05.42.35:660][894]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.30-05.42.36:802][954]LogMaterialEditor: Saving and Compiling material M_Basic_Floor
+[2017.09.30-05.42.37:375][954]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.37:433][954]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.37:487][954]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.37:557][954]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2017.09.30-05.42.38:310][954]TextureStreamingBuild: Display: Compiling optional shaders took 0.762 seconds.
+[2017.09.30-05.42.40:709][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Basic_Floor" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Materials/M_Basic_Floor.uasset" SILENT=true
+[2017.09.30-05.42.40:842][954]LogSavePackage: Save=124.98ms
+[2017.09.30-05.42.40:843][954]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/M_Basic_Floor5D9784D64DF450C88F9D01A29A367C9C.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Materials/M_Basic_Floor.uasset'
+[2017.09.30-05.42.40:851][954]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2017.09.30-05.42.57:694][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.30-05.42.57:787][328]LogSavePackage: Save=85.85ms
+[2017.09.30-05.42.57:787][328]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto38EFEADBC484AE23864890E97118F6ADB.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2017.09.30-05.42.57:788][328]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto3.umap
+[2017.09.30-05.42.57:791][328]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.113
+[2017.09.30-05.42.57:791][328]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.113
+[2017.09.30-05.42.59:247][407]Cmd: TRANSACTION UNDO
+[2017.09.30-05.42.59:248][407]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.09.30-05.42.59:251][407]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.59:274][407]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.59:293][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.42.59:590][410]Cmd: TRANSACTION UNDO
+[2017.09.30-05.42.59:590][410]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.09.30-05.42.59:594][410]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.59:619][410]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.42.59:643][410]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.43.00:402][450]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.00:403][450]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.09.30-05.43.00:406][450]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.00:428][450]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.00:455][450]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.43.01:018][480]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.01:019][480]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.09.30-05.43.01:022][480]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.01:044][480]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.01:068][480]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.43.01:515][503]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.01:515][503]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.09.30-05.43.01:519][503]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.01:541][503]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.01:559][503]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.43.02:034][528]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.02:034][528]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.09.30-05.43.02:037][528]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.02:056][528]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.02:077][528]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.43.02:470][548]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.02:470][548]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.09.30-05.43.02:474][548]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.02:495][548]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.02:517][548]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.30-05.43.02:908][568]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.02:909][568]LogEditorTransaction: Undo Clicking on Components
+[2017.09.30-05.43.02:940][568]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.03:250][583]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.03:250][583]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.43.03:254][583]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.04:383][648]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.09.30-05.43.04:384][648]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.30-05.43.04:384][648]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.30-05.43.04:850][676]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.04:850][676]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.43.04:854][676]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.05:557][716]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.05:557][716]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.43.05:561][716]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.06:191][751]Cmd: TRANSACTION UNDO
+[2017.09.30-05.43.06:191][751]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.43.06:196][751]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.09.30-05.43.07:519][827]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.09.30-05.43.07:519][827]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.30-05.43.07:519][827]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.30-05.43.18:444][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.19:195][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.19:699][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.21:711][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.22:361][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.25:905][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.26:451][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.26:536][708]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.09.30-05.43.27:345][755]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.09.30-05.43.28:095][799]Cmd: SELECT NONE
+[2017.09.30-05.43.28:929][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.29:677][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.30:224][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.33:125][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.33:938][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.37:992][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.09.30-05.43.38:987][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.30-05.43.39:715][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2017.09.30-05.43.40:362][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2017.09.30-05.43.40:830][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2017.09.30-05.43.42:524][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.44:113][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.44:371][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.44:861][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.47:687][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.48:133][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.49:946][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.50:292][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.51:886][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.52:285][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.56:290][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2017.09.30-05.43.56:381][431]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.09.30-05.43.57:002][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.30-05.43.57:037][466]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.09.30-05.44.13:226][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2017.09.30-05.44.37:048][818]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.37:048][818]LogEditorTransaction: Undo Replace component used material
+[2017.09.30-05.44.37:620][851]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.37:620][851]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.38:489][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2017.09.30-05.44.39:173][939]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.39:174][939]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.39:491][957]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.39:491][957]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.39:806][975]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.39:806][975]LogEditorTransaction: Undo Clicking on Components
+[2017.09.30-05.44.40:118][992]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.40:118][992]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.40:434][  9]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.40:434][  9]LogEditorTransaction: Undo Clicking on Components
+[2017.09.30-05.44.40:778][ 28]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.40:778][ 28]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.41:098][ 47]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.41:098][ 47]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.41:398][ 65]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.41:398][ 65]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.41:698][ 83]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.41:698][ 83]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.41:998][101]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.41:999][101]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.42:233][114]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.42:233][114]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.42:433][126]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.42:433][126]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.42:683][141]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.42:683][141]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.42:916][155]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.42:916][155]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.43:116][167]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.43:116][167]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.43:283][177]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.43:283][177]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.43:467][187]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.43:467][187]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.43:633][197]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.43:634][197]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.43:884][212]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.43:884][212]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.44:103][224]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.44:103][224]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.44:270][233]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.44:270][233]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.44:437][242]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.44:437][242]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.44:603][252]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.44:604][252]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.44:803][263]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.44:803][263]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.45:037][277]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.45:037][277]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.45:288][291]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.45:288][291]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.45:554][307]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.45:555][307]LogEditorTransaction: Undo Select None
+[2017.09.30-05.44.46:039][334]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.46:040][334]LogEditorTransaction: Undo Clicking on Components
+[2017.09.30-05.44.46:376][354]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.46:376][354]LogEditorTransaction: Undo Clicking on Components
+[2017.09.30-05.44.46:579][365]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.46:579][365]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.46:782][377]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.46:782][377]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.46:966][387]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.46:966][387]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.47:166][399]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.47:166][399]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.47:366][410]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.47:366][410]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.47:549][421]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.47:549][421]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.47:749][433]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.47:749][433]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.44.47:933][444]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.47:933][444]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.44.48:135][456]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.48:135][456]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.44.48:619][485]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.48:619][485]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.44.48:936][504]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.48:936][504]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.44.49:319][527]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.49:319][527]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.44.49:719][551]Cmd: TRANSACTION UNDO
+[2017.09.30-05.44.49:719][551]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.45.05:848][517]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-05.45.05:865][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-05.45.05:865][517]PIE: New page: PIE session: NewMap (Sep 29, 2017, 9:45:05 PM)
+[2017.09.30-05.45.05:866][517]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-05.45.05:871][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005474s)
+[2017.09.30-05.45.05:872][517]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-05.45.05:873][517]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2017.09.30-05.45.05:873][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007588s)
+[2017.09.30-05.45.05:896][517]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-05.45.05:906][517]LogInit: FAudioDevice initialized.
+[2017.09.30-05.45.05:937][517]LogLoad: Game class is 'MyEscapeRoomGameModeBP_C'
+[2017.09.30-05.45.05:941][517]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-01.45.05
+[2017.09.30-05.45.05:941][517]LogWorld: Bringing up level for play took: 0.002694
+[2017.09.30-05.45.05:943][517]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-05.45.05:943][517]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-05.45.05:943][517]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.035
+[2017.09.30-05.46.32:729][641]LogActorFactory: Actor Factory created SM_Stairs
+[2017.09.30-05.46.32:732][641]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:739][642]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:744][642]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:756][643]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:761][643]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:772][644]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:778][644]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:789][645]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:792][645]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:806][646]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:807][646]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:823][647]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:824][647]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:839][648]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:856][649]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:872][650]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:889][651]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:895][651]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:906][652]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:911][652]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:922][653]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:927][653]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:939][654]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:944][654]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:956][655]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:957][655]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:972][656]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:974][656]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.32:989][657]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:005][658]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:022][659]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:039][660]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:044][660]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:056][661]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:061][661]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:072][662]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:077][662]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:089][663]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:096][663]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:106][664]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:108][664]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:123][665]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:124][665]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:139][666]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:156][667]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:172][668]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:189][669]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:206][670]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:212][670]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:222][671]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:227][671]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:239][672]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:241][672]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:256][673]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:257][673]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:272][674]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:274][674]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:289][675]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:306][676]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:322][677]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:339][678]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:345][678]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:356][679]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:361][679]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:373][680]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:377][680]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:389][681]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:394][681]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:406][682]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:407][682]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:422][683]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:424][683]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:439][684]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:456][685]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:472][686]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:489][687]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:494][687]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:506][688]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:511][688]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:522][689]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:527][689]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:539][690]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:544][690]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:556][691]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:557][691]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:573][692]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:574][692]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:589][693]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:606][694]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:623][695]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:639][696]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:644][696]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:656][697]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:660][697]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:673][698]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:677][698]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:689][699]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:692][699]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:706][700]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:707][700]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:723][701]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:739][702]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:756][703]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:772][704]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:789][705]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:806][706]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:811][706]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:823][707]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:828][707]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:839][708]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:841][708]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:856][709]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:858][709]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:873][710]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:874][710]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:889][711]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:906][712]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:923][713]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:939][714]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.33:949][714]LogActorFactory: Actor Factory created SM_Stairs
+[2017.09.30-05.46.37:998][883]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.37:999][883]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:025][884]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:026][884]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:053][885]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:054][885]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:081][886]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:081][886]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:107][887]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:108][887]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:135][888]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:135][888]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:163][889]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:164][889]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:190][890]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:191][890]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:217][891]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:218][891]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:244][892]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:245][892]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:271][893]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:272][893]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:298][894]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:298][894]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:350][896]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:350][896]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:377][897]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:378][897]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:403][898]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:404][898]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:430][899]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:430][899]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:457][900]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:458][900]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:484][901]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:485][901]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:512][902]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:513][902]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:539][903]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:540][903]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:566][904]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:566][904]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:595][905]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:595][905]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:648][907]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:648][907]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:779][912]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:779][912]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:883][916]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.38:883][916]PIE: Warning: Mobility of /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.SM_Stairs7_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.09.30-05.46.42:205][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs2)
+[2017.09.30-05.46.46:250][283]LogActorFactory: Actor Factory created SM_Stairs
+[2017.09.30-05.46.47:824][377]LogActorFactory: Actor Factory created SM_Stairs
+[2017.09.30-05.46.49:695][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs7)
+[2017.09.30-05.47.04:533][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs7)
+[2017.09.30-05.47.05:096][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs7)
+[2017.09.30-05.47.13:715][886]Cmd: TRANSACTION UNDO
+[2017.09.30-05.47.13:715][886]LogEditorTransaction: Undo Move Actors
+[2017.09.30-05.47.13:912][895]Cmd: TRANSACTION UNDO
+[2017.09.30-05.47.13:912][895]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.47.14:394][923]Cmd: TRANSACTION UNDO
+[2017.09.30-05.47.14:394][923]LogEditorTransaction: Undo Rotate Actors
+[2017.09.30-05.47.14:739][943]Cmd: TRANSACTION UNDO
+[2017.09.30-05.47.14:739][943]LogEditorTransaction: Undo Rotate Actors
+[2017.09.30-05.47.15:649][997]Cmd: TRANSACTION UNDO
+[2017.09.30-05.47.15:649][997]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.30-05.47.16:060][ 21]Cmd: TRANSACTION UNDO
+[2017.09.30-05.47.16:060][ 21]LogEditorTransaction: Undo Create Actors
+[2017.09.30-05.47.21:608][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x307)
+[2017.09.30-05.47.22:331][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x314)
+[2017.09.30-05.47.37:941][289]Cmd: TRANSACTION UNDO
+[2017.09.30-05.47.37:942][289]LogEditorTransaction: Undo Move Actors
+[2017.09.30-05.47.37:947][289]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.Floor2.StaticMeshComponent0) Component already registered.
+[2017.09.30-05.47.39:019][352]Cmd: SELECT NONE
+[2017.09.30-05.47.44:876][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x308)
+[2017.09.30-05.47.55:522][331]Cmd: TRANSACTION UNDO
+[2017.09.30-05.47.55:522][331]LogEditorTransaction: Undo Move Actors
+[2017.09.30-05.54.36:048][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.30-05.54.36:146][354]LogSavePackage: Save=88.38ms
+[2017.09.30-05.54.36:146][354]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto41815C7F7446B2EBC67393297B3626C51.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto4.umap'
+[2017.09.30-05.54.36:147][354]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto4.umap
+[2017.09.30-05.54.36:150][354]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.125
+[2017.09.30-05.54.36:150][354]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.125
+[2017.09.30-05.54.52:017][296]Cmd: SELECT NONE
+[2017.09.30-05.54.56:776][580]Cmd: SELECT NONE
+[2017.09.30-05.59.02:218][741]LogStaticMesh: Building static mesh SM_Stairs...
+[2017.09.30-05.59.02:246][741]LogStaticMesh: Built static mesh [0.03s] /Game/StarterContent/Props/SM_Stairs.SM_Stairs
+[2017.09.30-05.59.16:563][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Stairs" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Props/SM_Stairs.uasset" SILENT=true
+[2017.09.30-05.59.16:631][365]LogSavePackage: Save=26.13ms
+[2017.09.30-05.59.16:631][365]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/SM_Stairs4584C9D94E3B10AE1D9CB48768A31C01.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Props/SM_Stairs.uasset'
+[2017.09.30-05.59.16:638][365]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Props/SM_Stairs.uasset
+[2017.09.30-05.59.29:054][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.30-05.59.29:223][ 82]LogSavePackage: Save=138.52ms
+[2017.09.30-05.59.29:224][ 82]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap7E60304041A5A27D00DC6FA6E3230FD1.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
+[2017.09.30-05.59.29:230][ 82]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
+[2017.09.30-05.59.29:271][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.30-05.59.29:621][ 82]LogSavePackage: Save=327.12ms
+[2017.09.30-05.59.29:621][ 82]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltData5A57BC7540F78C486D8CA18F30377831.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2017.09.30-05.59.29:623][ 82]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2017.09.30-05.59.33:476][293]MapCheck: New page: Map Check
+[2017.09.30-05.59.33:494][293]LightingResults: New page: Lighting Build - Sep 29, 2017, 9:59:33 PM
+[2017.09.30-05.59.33:515][293]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.30-05.59.33:519][293]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.30-05.59.33:520][293]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.30-05.59.33:521][293]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.30-05.59.33:521][293]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8888
+[2017.09.30-05.59.38:107][293]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.30-05.59.38:108][293]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.30-05.59.38:108][293]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.30-05.59.38:108][293]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.30-05.59.38:108][293]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.30-05.59.38:108][293]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.30-05.59.38:268][293]LogEditorBuildUtils: Build time 0:04
+[2017.09.30-05.59.51:640][ 43]Job is a success!
+[2017.09.30-05.59.51:795][ 44]LightingResults: Error: PointLight8_18 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.09.30-05.59.51:796][ 44]LightingResults: Error: PointLight7_15 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.09.30-05.59.51:796][ 44]LightingResults: Error: PointLight6_12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.09.30-05.59.51:796][ 44]LightingResults: Error: PointLight5_9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.09.30-05.59.51:797][ 44]LightingResults: Error: PointLight3_3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.09.30-05.59.51:797][ 44]LightingResults: Error: PointLight4_6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.09.30-05.59.52:455][ 44]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.09.30-05.59.52:455][ 44]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.09.30-05.59.52:455][ 44]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.09.30-05.59.52:456][ 44]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.09.30-05.59.52:456][ 44]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.09.30-05.59.52:456][ 44]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.09.30-05.59.52:608][ 44]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 32X32)
+[2017.09.30-05.59.52:608][ 44]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X512)
+[2017.09.30-05.59.52:627][ 44]Lightmass on LAPTOP-QBTPNRJC: 13.2 sec total, 249 ms importing, 48 ms setup, 837 ms photons, 12.1 sec processing, 0 ms extra exporting [40/40 mappings]. Threads: 1:24 min total, 1:04 min processing.
+[2017.09.30-05.59.52:661][ 44]LogStaticLightingSystem: Illumination: 19.1 sec (660 ms encoding lightmaps, 147 ms encoding shadowmaps)
+[2017.09.30-05.59.52:661][ 44]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.30-05.59.52:661][ 44]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.30-05.59.53:111][ 44]DumpUnbuiltLightIteractions
+[2017.09.30-05.59.53:111][ 44]Lights with unbuilt interactions: 0
+[2017.09.30-05.59.53:111][ 44]
+[2017.09.30-05.59.53:111][ 44]Primitives with unbuilt interactions: 0
+[2017.09.30-05.59.53:124][ 45]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.30-05.59.53:124][ 45]MapCheck: New page: NewMap - Sep 29, 2017, 9:59:53 PM
+[2017.09.30-05.59.55:350][ 45]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,225.989ms to complete.
+[2017.09.30-06.01.05:481][ 56]LogActorFactory: Actor Factory created SM_MatPreviewMesh_02
+[2017.09.30-06.01.09:694][278]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2017.09.30-06.01.28:156][303]LogActorFactory: Actor Factory created SM_TableRound
+[2017.09.30-06.01.30:077][418]LogActorFactory: Actor Factory created SM_TableRound
+[2017.09.30-06.01.30:948][470]LogActorFactory: Actor Factory created SM_TableRound
+[2017.09.30-06.02.35:641][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound2)
+[2017.09.30-06.02.37:470][417]Cmd: EDIT CUT
+[2017.09.30-06.02.37:475][417]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.30-06.02.37:493][417]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.09.30-06.03.05:273][894]LogMaterial: Warning: Material /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV needed to have new flag set bUsedWithStaticLighting !
+[2017.09.30-06.03.05:276][894]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2017.09.30-06.03.06:896][989]Cmd: TRANSACTION UNDO
+[2017.09.30-06.03.06:896][989]LogEditorTransaction: Undo Create Actors
+[2017.09.30-06.03.30:532][397]Cmd: TRANSACTION UNDO
+[2017.09.30-06.03.30:532][397]LogEditorTransaction: Undo Rotate Actors
+[2017.09.30-06.03.31:215][436]Cmd: TRANSACTION UNDO
+[2017.09.30-06.03.31:216][436]LogEditorTransaction: Undo Create Actors
+[2017.09.30-06.03.39:535][913]Cmd: TRANSACTION UNDO
+[2017.09.30-06.03.39:536][913]LogEditorTransaction: Undo Create Actors
+[2017.09.30-06.03.56:938][951]Cmd: TRANSACTION UNDO
+[2017.09.30-06.03.56:939][951]LogEditorTransaction: Undo Create Actors
+[2017.09.30-06.04.03:359][330]Cmd: TRANSACTION UNDO
+[2017.09.30-06.04.03:359][330]LogEditorTransaction: Undo Create Actors
+[2017.09.30-06.04.10:570][758]Cmd: TRANSACTION UNDO
+[2017.09.30-06.04.10:571][758]LogEditorTransaction: Undo Create Actors
+[2017.09.30-06.04.16:307][ 81]LogActorFactory: Actor Factory created Shape_Wedge_B
+[2017.09.30-06.04.19:380][265]LogActorFactory: Actor Factory created Shape_Wedge_B
+[2017.09.30-06.04.49:703][ 70]LogActorFactory: Actor Factory created Shape_Wedge_B
+[2017.09.30-06.04.51:374][170]LogActorFactory: Actor Factory created Shape_Wedge_B
+[2017.09.30-06.05.30:677][493]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-06.05.30:696][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-06.05.30:697][493]PIE: New page: PIE session: NewMap (Sep 29, 2017, 10:05:30 PM)
+[2017.09.30-06.05.30:697][493]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-06.05.30:709][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011680s)
+[2017.09.30-06.05.30:710][493]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-06.05.30:710][493]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2017.09.30-06.05.30:711][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.013879s)
+[2017.09.30-06.05.30:735][493]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-06.05.30:748][493]LogInit: FAudioDevice initialized.
+[2017.09.30-06.05.30:783][493]LogLoad: Game class is 'MyEscapeRoomGameModeBP_C'
+[2017.09.30-06.05.30:786][493]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-02.05.30
+[2017.09.30-06.05.30:787][493]LogWorld: Bringing up level for play took: 0.003046
+[2017.09.30-06.05.30:788][493]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-06.05.30:789][493]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-06.05.30:789][493]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.811
+[2017.09.30-06.05.48:593][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B2)
+[2017.09.30-06.05.49:429][590]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.30-06.05.54:823][907]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-06.05.54:842][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-06.05.54:843][907]PIE: New page: PIE session: NewMap (Sep 29, 2017, 10:05:54 PM)
+[2017.09.30-06.05.54:843][907]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-06.05.54:849][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005841s)
+[2017.09.30-06.05.54:850][907]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-06.05.54:851][907]LogPlayLevel: PIE: World Init took: (0.001250s)
+[2017.09.30-06.05.54:851][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007903s)
+[2017.09.30-06.05.54:873][907]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-06.05.54:884][907]LogInit: FAudioDevice initialized.
+[2017.09.30-06.05.54:915][907]LogLoad: Game class is 'MyEscapeRoomGameModeBP_C'
+[2017.09.30-06.05.54:919][907]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-02.05.54
+[2017.09.30-06.05.54:920][907]LogWorld: Bringing up level for play took: 0.002877
+[2017.09.30-06.05.54:921][907]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-06.05.54:921][907]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-06.05.54:921][907]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.944
+[2017.09.30-06.06.14:099][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B2)
+[2017.09.30-06.07.07:303][ 67]LogActorFactory: Actor Factory created Shape_Plane
+[2017.09.30-06.07.09:428][193]LogActorFactory: Actor Factory created Shape_Plane
+[2017.09.30-06.07.13:467][435]LogActorFactory: Actor Factory created Shape_Plane
+[2017.09.30-06.07.52:346][709]Cmd: TRANSACTION UNDO
+[2017.09.30-06.07.52:346][709]LogEditorTransaction: Undo Move Actors
+[2017.09.30-06.08.44:863][759]Cmd: SELECT NONE
+[2017.09.30-06.08.45:940][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B)
+[2017.09.30-06.08.46:894][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B2)
+[2017.09.30-06.08.48:594][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B)
+[2017.09.30-06.08.49:789][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B)
+[2017.09.30-06.08.50:594][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.09.30-06.08.55:754][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B2)
+[2017.09.30-06.08.56:492][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B)
+[2017.09.30-06.08.57:741][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B2)
+[2017.09.30-06.08.59:737][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B)
+[2017.09.30-06.09.00:454][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B2)
+[2017.09.30-06.09.02:769][748]Cmd: EDIT CUT
+[2017.09.30-06.09.02:776][748]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.30-06.09.02:777][748]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.30-06.09.02:799][748]LogEditorActor: Deleted 2 Actors (0.023 secs)
+[2017.09.30-06.09.06:288][945]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.09.30-06.09.07:188][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x317)
+[2017.09.30-06.09.07:855][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.09.30-06.09.09:054][ 97]Cmd: EDIT CUT
+[2017.09.30-06.09.09:059][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.30-06.09.09:081][ 97]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.09.30-06.09.56:523][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.30-06.09.56:650][938]LogSavePackage: Save=115.37ms
+[2017.09.30-06.09.56:650][938]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto5E7719B9041E215B5163D98ABD4ED2DF9.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto5.umap'
+[2017.09.30-06.09.56:651][938]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto5.umap
+[2017.09.30-06.09.56:653][938]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.151
+[2017.09.30-06.09.56:654][938]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.151
+[2017.09.30-06.09.56:655][938]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewMap_BuiltData] ([1] browsable assets)...
+[2017.09.30-06.09.56:655][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewMap_BuiltData]
+[2017.09.30-06.09.56:656][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_BuiltData_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.09.30-06.09.58:768][938]LogSavePackage: Save=2103.44ms
+[2017.09.30-06.09.58:769][938]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltData_Auto5407459F54791D6F49DBCEC9A35432801.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_BuiltData_Auto5.uasset'
+[2017.09.30-06.09.58:769][938]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_BuiltData_Auto5.uasset
+[2017.09.30-06.09.58:779][938]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/Materials/M_explosion_subUV] ([1] browsable assets)...
+[2017.09.30-06.09.58:819][938]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV]
+[2017.09.30-06.09.58:819][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/Materials/M_explosion_subUV]
+[2017.09.30-06.09.58:846][938]LogSavePackage: Save=19.45ms
+[2017.09.30-06.09.58:846][938]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/M_explosion_subUV_Auto553EDCD73410E1F633E4A3D942A7B6B96.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_explosion_subUV_Auto5.uasset'
+[2017.09.30-06.09.58:847][938]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_explosion_subUV_Auto5.uasset
+[2017.09.30-06.09.58:848][938]LogFileHelpers: Auto-saving content packages took 2.193
+[2017.09.30-06.12.02:833][219]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-06.12.02:854][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-06.12.02:854][219]PIE: New page: PIE session: NewMap (Sep 29, 2017, 10:12:02 PM)
+[2017.09.30-06.12.02:854][219]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-06.12.02:860][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005730s)
+[2017.09.30-06.12.02:862][219]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-06.12.02:862][219]LogPlayLevel: PIE: World Init took: (0.001515s)
+[2017.09.30-06.12.02:862][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.008005s)
+[2017.09.30-06.12.02:886][219]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-06.12.02:898][219]LogInit: FAudioDevice initialized.
+[2017.09.30-06.12.02:935][219]LogLoad: Game class is 'MyEscapeRoomGameModeBP_C'
+[2017.09.30-06.12.02:939][219]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-02.12.02
+[2017.09.30-06.12.02:940][219]LogWorld: Bringing up level for play took: 0.002995
+[2017.09.30-06.12.02:941][219]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-06.12.02:942][219]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-06.12.02:942][219]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.964
+[2017.09.30-06.13.46:821][204]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-06.13.46:887][205]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (MeshComponent0)
+[2017.09.30-06.13.47:705][252]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (MeshComponent0)
+[2017.09.30-06.13.50:873][437]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (MeshComponent0)
+[2017.09.30-06.13.51:388][466]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (MeshComponent0)
+[2017.09.30-06.13.57:228][811]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (MeshComponent0)
+[2017.09.30-06.13.57:656][835]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (MeshComponent0)
+[2017.09.30-06.14.12:273][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x316)
+[2017.09.30-06.14.12:836][626]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x316)
+[2017.09.30-06.14.36:792][982]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.09.30-06.14.38:733][ 94]Cmd: EDIT CUT
+[2017.09.30-06.14.38:739][ 94]LogEditorActor: Deleted Actor: DefaultPawn_BP_C
+[2017.09.30-06.14.38:761][ 94]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2017.09.30-06.20.23:601][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.30-06.20.25:853][724]LogSavePackage: Save=184.31ms
+[2017.09.30-06.20.25:853][724]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_Auto62C93A48C48B040969344B0865B71F80F.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto6.umap'
+[2017.09.30-06.20.25:854][724]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto6.umap
+[2017.09.30-06.20.25:859][724]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 2.277
+[2017.09.30-06.20.25:859][724]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.277
+[2017.09.30-06.20.25:864][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Architecture/Wall_400x300] ([1] browsable assets)...
+[2017.09.30-06.20.25:904][724]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Architecture/Wall_400x300.Wall_400x300]
+[2017.09.30-06.20.25:904][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Architecture/Wall_400x300]
+[2017.09.30-06.20.25:926][724]LogSavePackage: Save=14.49ms
+[2017.09.30-06.20.25:926][724]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Wall_400x300_Auto6A5975FEA4760971DBD543E9152423284.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/StarterContent/Architecture/Wall_400x300_Auto6.uasset'
+[2017.09.30-06.20.25:927][724]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/StarterContent/Architecture/Wall_400x300_Auto6.uasset
+[2017.09.30-06.20.25:928][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DefaultPawn_BP] ([1] browsable assets)...
+[2017.09.30-06.20.25:965][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DefaultPawn_BP.DefaultPawn_BP]
+[2017.09.30-06.20.25:966][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/DefaultPawn_BP]
+[2017.09.30-06.20.25:966][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/DefaultPawn_BP_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.30-06.20.26:005][724]LogSavePackage: Save=30.42ms
+[2017.09.30-06.20.26:005][724]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/DefaultPawn_BP_Auto66C10161D4949E41C0140448AC76E7E60.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/DefaultPawn_BP_Auto6.uasset'
+[2017.09.30-06.20.26:006][724]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Saved/Autosaves/Game/DefaultPawn_BP_Auto6.uasset
+[2017.09.30-06.20.26:006][724]LogFileHelpers: Auto-saving content packages took 0.143
+[2017.09.30-06.24.16:939][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.30-06.24.17:043][497]LogSavePackage: Save=82.39ms
+[2017.09.30-06.24.17:043][497]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap0DF11E8B4246DF3FBE0FAEBF8D3317F4.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
+[2017.09.30-06.24.17:049][497]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
+[2017.09.30-06.24.17:079][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.30-06.24.17:234][497]LogSavePackage: Save=145.37ms
+[2017.09.30-06.24.17:234][497]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltData486EF61543FC282EAFEDAE921EC65F49.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2017.09.30-06.24.17:240][497]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2017.09.30-06.29.53:408][103]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.30-06.29.53:428][103]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.30-06.29.53:432][103]LogPlayLevel: [PlayLevel] Compiling DefaultPawn_BP before play...
+[2017.09.30-06.29.53:628][103]LogPlayLevel: PlayLevel: Blueprint regeneration took 199 ms (1 blueprints)
+[2017.09.30-06.29.53:628][103]PIE: New page: PIE session: NewMap (Sep 29, 2017, 10:29:53 PM)
+[2017.09.30-06.29.53:629][103]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.09.30-06.29.53:633][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004340s)
+[2017.09.30-06.29.53:635][103]LogAIModule: Creating AISystem for world NewMap
+[2017.09.30-06.29.53:635][103]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2017.09.30-06.29.53:636][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007275s)
+[2017.09.30-06.29.53:655][103]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-06.29.53:665][103]LogInit: FAudioDevice initialized.
+[2017.09.30-06.29.53:702][103]LogLoad: Game class is 'MyEscapeRoomGameModeBP_C'
+[2017.09.30-06.29.53:706][103]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2017.09.30-02.29.53
+[2017.09.30-06.29.53:707][103]LogWorld: Bringing up level for play took: 0.002987
+[2017.09.30-06.29.53:708][103]LogTemp: Warning:  SM_Chair2_4 is at X=440.000 Y=-165.000 Z=20.000.
+[2017.09.30-06.29.53:708][103]LogTemp: Warning:  SM_Chair_2 is at X=440.000 Y=-435.000 Z=20.000.
+[2017.09.30-06.29.53:708][103]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.27
+[2017.09.30-06.29.58:256][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.30-06.29.58:371][360]LogSavePackage: Save=90.91ms
+[2017.09.30-06.29.58:371][360]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap22CFA4CB4F684208ACD0DCB15F04F307.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap'
+[2017.09.30-06.29.58:372][360]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap.umap
+[2017.09.30-06.29.58:399][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.30-06.29.58:556][360]LogSavePackage: Save=148.66ms
+[2017.09.30-06.29.58:556][360]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/NewMap_BuiltData80FDE2C0438386BB5B1F2FB0532FEE84.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2017.09.30-06.29.58:557][360]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2017.09.30-06.30.04:933][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/DefaultPawn_BP.uasset" SILENT=true
+[2017.09.30-06.30.04:960][415]LogSavePackage: Save=18.79ms
+[2017.09.30-06.30.04:960][415]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/DefaultPawn_BP94BDAD7948F88CE10C12A39089E17012.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/DefaultPawn_BP.uasset'
+[2017.09.30-06.30.04:967][415]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/DefaultPawn_BP.uasset
+[2017.09.30-06.30.04:972][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyEscapeRoomGameModeBP" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/MyEscapeRoomGameModeBP.uasset" SILENT=true
+[2017.09.30-06.30.04:992][415]LogSavePackage: Save=17.09ms
+[2017.09.30-06.30.04:992][415]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/MyEscapeRoomGameModeBP308BC36F47B101B3F0DED494453C4E99.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/MyEscapeRoomGameModeBP.uasset'
+[2017.09.30-06.30.04:999][415]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/MyEscapeRoomGameModeBP.uasset
+[2017.09.30-06.30.05:007][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Wall_400x300" FILE="D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Architecture/Wall_400x300.uasset" SILENT=true
+[2017.09.30-06.30.05:131][415]LogSavePackage: Save=114.60ms
+[2017.09.30-06.30.05:131][415]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Wall_400x300597AC6DD4503585095BB26B8E14E8D44.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Architecture/Wall_400x300.uasset'
+[2017.09.30-06.30.05:136][415]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2017.09.30-06.30.05:158][415]LogSavePackage: Save=6.99ms
+[2017.09.30-06.30.05:158][415]LogSavePackage: Moving 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/M_explosion_subUV909ED5324FA62DC2FE6D8FA3C7AA9130.tmp' to 'D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset'
+[2017.09.30-06.30.05:175][415]LogSavePackage: Display: Finished SavePackage D:/GitHub/EscapeRoom/EscapeRoom/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2017.09.30-06.30.05:692][416]Cmd: QUIT_EDITOR
+[2017.09.30-06.30.05:943][416]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.30-06.30.05:943][416]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.30-06.30.05:961][416]LogExit: Preparing to exit.
+[2017.09.30-06.30.06:999][416]LogExit: Editor shut down
+[2017.09.30-06.30.07:033][416]LogExit: Transaction tracking system shut down
+[2017.09.30-06.30.07:146][416]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.30-06.30.07:146][416]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Content/' was aborted.
+[2017.09.30-06.30.07:146][416]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.30-06.30.07:146][416]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.30-06.30.07:146][416]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.30-06.30.07:281][416]LogExit: Object subsystem successfully closed.
+[2017.09.30-06.30.07:313][416]LogD3D11RHI: Shutdown
+[2017.09.30-06.30.07:314][416]LogD3D11RHI: CleanupD3DDevice
+[2017.09.30-06.30.07:321][416]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.30-06.30.07:539][416]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (548)
+[2017.09.30-06.30.07:539][416]LogModuleManager: Shutting down and abandoning module MaterialEditor (546)
+[2017.09.30-06.30.07:539][416]LogModuleManager: Shutting down and abandoning module EscapeRoom (544)
+[2017.09.30-06.30.07:539][416]LogModuleManager: Shutting down and abandoning module BlueprintGraph (542)
+[2017.09.30-06.30.07:539][416]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (540)
+[2017.09.30-06.30.07:539][416]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (538)
+[2017.09.30-06.30.07:540][416]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (536)
+[2017.09.30-06.30.07:540][416]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.09.30-06.30.07:540][416]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.09.30-06.30.07:540][416]LogModuleManager: Shutting down and abandoning module AddContentDialog (530)
+[2017.09.30-06.30.07:540][416]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.30-06.30.07:547][416]LogModuleManager: Shutting down and abandoning module WidgetCarousel (529)
+[2017.09.30-06.30.07:547][416]LogModuleManager: Shutting down and abandoning module EditorWidgets (526)
+[2017.09.30-06.30.07:547][416]LogModuleManager: Shutting down and abandoning module CollectionManager (524)
+[2017.09.30-06.30.07:547][416]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Collections/' was aborted.
+[2017.09.30-06.30.07:547][416]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Content/Developers/dougl/Collections/' was aborted.
+[2017.09.30-06.30.07:547][416]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Saved/Collections/' was aborted.
+[2017.09.30-06.30.07:547][416]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.09.30-06.30.07:547][416]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.09.30-06.30.07:547][416]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.09.30-06.30.07:547][416]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.09.30-06.30.07:548][416]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.09.30-06.30.07:549][416]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.09.30-06.30.07:550][416]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.09.30-06.30.07:550][416]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.09.30-06.30.07:550][416]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.09.30-06.30.07:550][416]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.09.30-06.30.07:550][416]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.09.30-06.30.07:550][416]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.09.30-06.30.08:171][416]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.09.30-06.30.08:172][416]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.09.30-06.30.08:172][416]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.09.30-06.30.08:172][416]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.09.30-06.30.08:172][416]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.09.30-06.30.08:172][416]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.09.30-06.30.08:172][416]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.09.30-06.30.08:172][416]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.09.30-06.30.08:224][416]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.09.30-06.30.08:224][416]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.09.30-06.30.08:224][416]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.09.30-06.30.08:224][416]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.09.30-06.30.08:224][416]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.09.30-06.30.08:224][416]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.09.30-06.30.08:225][416]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.09.30-06.30.08:225][416]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.09.30-06.30.08:225][416]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.09.30-06.30.08:225][416]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.09.30-06.30.08:234][416]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.09.30-06.30.08:236][416]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.09.30-06.30.08:237][416]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.09.30-06.30.08:244][416]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.09.30-06.30.08:245][416]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.09.30-06.30.08:245][416]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.09.30-06.30.08:246][416]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.09.30-06.30.08:246][416]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.09.30-06.30.08:246][416]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.09.30-06.30.08:246][416]LogDirectoryWatcher: A directory notification for 'D:/GitHub/EscapeRoom/EscapeRoom/Binaries/Win64' was aborted.
+[2017.09.30-06.30.08:246][416]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.30-06.30.08:247][416]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.30-06.30.08:247][416]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.30-06.30.08:247][416]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.30-06.30.08:247][416]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.30-06.30.08:247][416]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.30-06.30.08:247][416]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.30-06.30.08:247][416]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.30-06.30.08:347][416]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.30-06.30.08:447][416]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.30-06.30.08:447][416]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.30-06.30.08:447][416]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.30-06.30.08:447][416]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.30-06.30.08:447][416]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.30-06.30.08:447][416]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.30-06.30.08:449][416]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.30-06.30.08:449][416]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.30-06.30.08:449][416]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.30-06.30.08:450][416]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.30-06.30.08:451][416]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.30-06.30.08:451][416]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.30-06.30.08:451][416]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.30-06.30.08:451][416]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.30-06.30.08:453][416]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.30-06.30.08:453][416]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.30-06.30.08:453][416]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.30-06.30.08:454][416]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.30-06.30.08:460][416]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.30-06.30.08:521][416]LogDerivedDataCache: Shutdown
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.30-06.30.08:521][416]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.30-06.30.08:522][416]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.30-06.30.08:523][416]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.30-06.30.08:523][416]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.30-06.30.08:523][416]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.30-06.30.08:523][416]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.30-06.30.08:523][416]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.30-06.30.08:523][416]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.30-06.30.08:523][416]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.30-06.30.08:523][416]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.30-06.30.08:523][416]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.30-06.30.08:523][416]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B320A7369-4115-010C-788F-97A79FB0C52F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=fe3eb03e4c6bd5b2053d609c84892995%7C673b42d9777c456f98e04f52d2f183ec%7C6d92607c-9b4e-4e4e-8049-db495ba2a9b2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.30-06.30.08:541][416]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.30-06.30.08:544][416]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.30-06.30.08:544][416]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.30-06.30.08:544][416]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.30-06.30.08:544][416]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.30-06.30.08:544][416]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.30-06.30.08:544][416]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.30-06.30.08:544][416]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.30-06.30.08:550][416]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.30-06.30.08:554][416]LogExit: Exiting.
+[2017.09.30-06.30.08:570][416]Log file closed, 09/30/17 02:30:08
